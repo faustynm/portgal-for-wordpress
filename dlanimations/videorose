@@ -1,0 +1,75 @@
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+	jQuery("#nihon-portgal-wrap-videorose").portgal({
+		databaseid:		1,
+		loadmore:		'',
+		preloader:		'',
+		wordpressurl:		'{wordpress_path}' ,
+		itemmaxwidthforrows:	{
+			row0:	{
+				itemminwidth:	100,
+				itemmaxwidth:	400
+			}
+		},
+		animationmode:		'videorose',
+		workmode:		0,
+		fullscreenmode:		false,
+		orderby:		{
+		},
+	});
+});
+
+</script>
+
+<div style="clear: both"></div>
+<br>
+
+<div id="nihon-portgal-wrap-videorose" class="nihon-portgal">
+<ul class="nihon-items-list">
+ 
+ <li portgal-category="2,3" portgal-attribute-order1="1">
+	<div style="background-image: url('{img_1_path}'); " class="portgal-bgscale fdlayer-wrapper" >
+		<div class="portgal-dlayer portgal-opacity-0" >
+			 <div class="portgal-tabletype-wrapper">
+				<div class="portgal-tabletype-cell">
+					
+					<span class="portgaldlinsideanimation portgal-button-run-video portgal-videorose-play-button  " portgalvideourl="https://www.youtube.com/embed/jDJpf2mQ0w4" portgalvideotype="youtube"><span class="fa fa-play-circle"></span></span>
+					
+				</div>
+			 </div>
+		</div>
+	</div>
+	<div class="portgal-videorose-text-wrap">
+		<a href="http://google.com" class="portgal-videorose-anchor-h1">Lorem ipsum </a>
+		<div class="portgal-videorose-anchor-category">
+			<a href="1">category 1</a>
+			<a href="2">category 2</a>
+		</div>
+		<div>Lorem ipsum</div>
+	</div>
+</li>
+
+ 
+</ul>
+<div class="portgal-lightboxwrap">
+	<div class="portgal-ajaxpreolader"></div>
+	<div class="portgal-lightboxwrapimage2 portgal-lightboxwrapimage">
+		<span class="fa fa-times portgal-lightboxclose"></span>
+		<div style="clear: both"></div>
+		<div class="portgal-lightboximgwrap">
+			<img src="">
+		</div>
+		<div style="clear: both"></div>
+		<ul class="portgal-lightbox-navigation">
+			<li class="portgal-lightboxnavigationleft"><span class="fa fa-chevron-circle-left"></span></li>
+			<li class="portgal-lightboxnavigationright"><span class="fa fa-chevron-circle-right"></span></li>
+		</ul>
+	</div>
+	<div class="portgal-textunderimage"></div>
+	<div class="portgal-lightboxhidden"></div>
+</div>
+</div> 
+ 

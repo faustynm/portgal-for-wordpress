@@ -1,0 +1,3587 @@
+.nihon-portgal * {
+  transition-duration: 0.0s !important;
+  
+}
+
+
+.nihon-portgal a {
+  text-decoration:	none !important;
+}
+
+.nihon-portgal .portgal-load-moreisrun {
+  display:		none;
+  height:		40px;
+}
+
+.nihon-portgal .portgal-load-moreisrun_inner {
+  display:		none;
+  height:		40px;
+  background-repeat:	no-repeat;
+  background-position:	center center;
+}
+
+
+
+
+.nihon-items-list {
+  display:		none;
+}
+
+.nihon-items, .nihon-items li {
+  list-style-type:	none;
+  list-style-type:	none !important;
+  margin:		0px !important;
+  padding:		0px !important;
+}
+
+
+.nihon-portgal .nihon-items {
+  position:		relative;
+  -webkit-perspective:	1000px;
+  perspective: 		1000px;
+}
+
+.nihon-portgal .nihon-items li {
+  position:	absolute;
+}
+
+.nihon-items li {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin:	0px !important;
+  border:	0px white solid;
+}
+
+.nihon-portgal-fullscreenmode {
+  position:	relative;
+  left:		0px;
+  right:	0px;
+}
+
+
+
+
+
+/*  workmode -- begin */
+
+
+.workmode-wooida .portgal-item-ajaxpreloader {
+  display:	none;
+  background-color:	rgba(255,255,255,0.9);
+  width:	25px;
+  padding:	25px;
+  position:	absolute;
+  left:		0px;
+  top:		0px;
+  -webkit-border-bottom-right-radius:	5px;
+  -moz-border-radius-bottomright:	5px;
+  border-bottom-right-radius:		5px;
+  background-image:	url('./preloaderlightbox.gif');
+  background-repeat:	no-repeat;
+  background-position:	center center;
+}
+
+.workmode-wooida .nihon-items li {
+  margin:		5px !important;
+  padding:		0px !important; 
+}
+
+.portgal-wooida-bottomshadow {
+  box-shadow:		0px 0px 30px black;
+  height:		50px;
+  width:		80%;
+  border-radius:	50%;
+  margin:		-50px auto 20px auto;
+  z-index:		-1000;
+}
+
+.portgal-wooida-txt-wrap {
+  padding:		10px;
+  background-color:	#F4F4F4; 
+background: rgb(255,255,255);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(244,244,244,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(244,244,244,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(244,244,244,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(244,244,244,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(244,244,244,1) 100%);
+background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,rgba(244,244,244,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=1 );
+  z-index: 		10001; 
+  position: 		relative;
+}
+
+.portgal-wooida-price {
+  background-color:	#62AB00;
+  padding:		2px 6px 2px 6px;
+  font-weight:		bold;
+  color:		white;
+  font-size:		17px;
+  display:		block;
+}
+
+.portgal-wooida-price-wrap {
+  text-align:		center;
+  
+  position:		absolute;
+  right:		0px;
+  top:			0px;
+}
+
+.portgal-wooaida-categories {
+  text-align:		center;
+  padding-top:		5px;
+  padding-bottom:	5px;
+  font-size:		12px;
+}
+
+.portgal-wooaida-categories a, .portgal-wooaida-categories {
+  color:		#4F4F4F;
+  color:		#4F4F4F !important;	
+}
+
+.portgal-wooaida-categories a:active, .portgal-wooaida-categories a:focus, .portgal-wooaida-categories a:hover {
+  color:		#939393;
+  color:		#939393 !important;	
+}
+
+.portgal-wooida-header {
+  font-size:		15px;
+  text-align:		center;
+  font-weight:		bold;
+  display:		block;
+  color:		#282828;
+  color:		#282828 !important;
+}
+
+.portgal-wooida-header:hover, .portgal-wooida-header:active,  .portgal-wooida-header:focus {
+  color:		#4F4F4F;
+  color:		#4F4F4F !important;
+} 
+
+
+
+.portgal-wooida-star-raiting-wrap {
+  text-align:		center;
+  padding:		0px;
+}
+
+.portgal-woo-star-raiting {
+  padding-left: 7px;
+}
+
+.portgal-woo-star-raiting:before {
+  content:	"\f005\f005\f005\f005\f005";
+  font-family:		FontAwesome;
+  font-size:		15px;
+  letter-spacing:	0px;
+  color:		#D7D7D7;
+}
+
+.portgal-woo-star-raiting_points:before {
+  /* content:		"\f005\f005\f005\f005\f005"; */
+  font-family:		FontAwesome;
+  color:		#D7B623;
+  margin-left:		-72px;
+  /* margin-right:		72px; */
+  font-size:		15px;
+  letter-spacing:	0px;
+}
+
+.portgal-woo-sr-0	{ }
+.portgal-woo-sr-05:before {	
+  content: "\f089"; 
+  margin-right:		60px;
+}
+.portgal-woo-sr-1:before {	
+  content: "\f005"; 
+  margin-right:		54px;
+}
+.portgal-woo-sr-15:before {	
+  content: "\f005\f089"; 
+  margin-right:		47px;
+}
+.portgal-woo-sr-2:before {	
+  content: "\f005\f005"; 
+  margin-right:		38px;
+}
+.portgal-woo-sr-25:before {	
+  content: "\f005\f005\f089"; 
+  margin-right:		32px;
+}
+.portgal-woo-sr-3:before {	
+  content: "\f005\f005\f005"; 
+  margin-right:		25px;
+}
+.portgal-woo-sr-35:before {	
+  content: "\f005\f005\f005\f089"; 
+  margin-right:		19px;
+}
+.portgal-woo-sr-4:before {	
+  content: "\f005\f005\f005\f005"; 
+  margin-right:		12px;
+}
+.portgal-woo-sr-45:before {	
+  content: "\f005\f005\f005\f005\f089"; 
+  margin-right:		6px;
+}
+.portgal-woo-sr-5:before {	
+  content: "\f005\f005\f005\f005\f005"; 
+  margin-right:		0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.workmode-wooadriana .portgal-item-ajaxpreloader {
+  display:	none;
+  background-color:	rgba(255,255,255,0.9);
+  width:	25px;
+  padding:	25px;
+  position:	absolute;
+  right:	0px;
+  top:		0px;
+  -webkit-border-bottom-left-radius:	5px;
+  -moz-border-radius-bottomleft:	5px;
+  border-bottom-left-radius:		5px;
+  background-image:	url('./preloaderlightbox.gif');
+  background-repeat:	no-repeat;
+  background-position:	center center;
+}
+
+.workmode-wooadriana .nihon-items li {
+  margin:		5px !important;
+  padding:		0px !important;
+  background-color:	white;
+  box-shadow:		0px 0px 5px #E8E8E8;
+}
+
+.workmode-wooadriana .portgal-wooadriana-txt-wrap {
+  padding:		10px;
+}
+
+.portgal-wooadriana-header {
+  font-size:		15px;
+  text-align:		center;
+  font-weight:		bold;
+  display:		block;
+  color:		#282828;
+  color:		#282828 !important;
+  margin-bottom:	5px;
+}
+
+.portgal-wooadriana-header:hover, .portgal-wooadriana-header:active,  .portgal-wooadriana-header:focus {
+  color:		#4F4F4F;
+  color:		#4F4F4F !important;
+} 
+
+.portgal-wooadriana-price {
+  background-color:	#62AB00;
+  padding:		5px 7px 5px 7px;
+  font-weight:		bold;
+  color:		white;
+  font-size:		14px;
+}
+
+.portgal-wooadriana-price-wrap {
+  text-align:		center;
+  padding:		5px;
+}
+
+
+
+
+.portgal-wooadriana-categories {
+  text-align:		center;
+  padding-top:		5px;
+  padding-bottom:	5px;
+  font-size:		12px;
+}
+
+.portgal-wooadriana-categories a, .portgal-wooadriana-categories {
+  color:		#4F4F4F;
+  color:		#4F4F4F !important;	
+}
+
+.portgal-wooadriana-categories a:active, .portgal-wooadriana-categories a:focus, .portgal-wooadriana-categories a:hover {
+  color:		#939393;
+  color:		#939393 !important;	
+}
+
+
+
+
+
+.portgal-wooadriana-star-raiting-wrap {
+  text-align:		center;
+  padding-bottom:	10px;
+}
+
+.portgal-wooadriana-star-raiting {
+  padding-left:		7px;
+}
+
+.portgal-wooadriana-star-raiting:before {
+  content:	"\f005\f005\f005\f005\f005";
+  font-family:		FontAwesome;
+  font-size:		15px;
+  letter-spacing:	0px;
+  color:		#D7D7D7;
+}
+
+.portgal-wooadriana-star-raiting_points:before {
+  /* content:		"\f005\f005\f005\f005\f005"; */
+  font-family:		FontAwesome;
+  color:		#D7B623;
+  margin-left:		-72px;
+  
+  /* margin-right:		72px; */
+  font-size:		15px;
+  letter-spacing:	0px;
+}
+
+.portgal-wooadriana-sr-0:before	{
+}
+.portgal-wooadriana-sr-05:before {	content: "\f089"; 
+  margin-right:		60px;
+}
+.portgal-wooadriana-sr-1:before {	content: "\f005"; 
+  margin-right:		54px;
+}
+.portgal-wooadriana-sr-15:before {	content: "\f005\f089"; 
+  margin-right:		47px;
+}
+.portgal-wooadriana-sr-2:before {	content: "\f005\f005"; 
+  margin-right:		38px;
+}
+.portgal-wooadriana-sr-25:before {	content: "\f005\f005\f089"; 
+  margin-right:		32px;
+}
+.portgal-wooadriana-sr-3:before {	content: "\f005\f005\f005"; 
+  margin-right:		25px;
+}
+.portgal-wooadriana-sr-35:before {	content: "\f005\f005\f005\f089"; 
+  margin-right:		19px;
+}
+.portgal-wooadriana-sr-4:before {	content: "\f005\f005\f005\f005"; 
+  margin-right:		12px;
+}
+.portgal-wooadriana-sr-45:before {	content: "\f005\f005\f005\f005\f089"; 
+  margin-right:		6px;
+}
+.portgal-wooadriana-sr-5:before {	content: "\f005\f005\f005\f005\f005"; 
+  margin-right:		0px;
+}
+
+
+
+
+.workmode-irina .nihon-items li {
+  margin:	5px !important;
+}
+
+.workmode-veronica .nihon-items li {
+  margin:	5px !important;
+}
+
+.workmode-veronica .nihon-items li .portgal-bgscale {
+  background-color:	#F9F9F9;
+}
+
+.workmode-sophie .nihon-items li .portgal-bgscale {
+  background-color:	#F9F9F9;
+}
+
+.workmode-mischa .portgal-dlayer , /* .workmode-kristina .portgal-dlayer , */ .workmode-irina .portgal-dlayer {
+  background-color:	#59D0FF;
+}
+
+
+
+
+.workmode-lisa li {
+  background-color:	white;
+  margin:		5px !important;
+}
+
+.workmode-lisa .portgal-link-nr1 {
+  font-size:	13px;
+}
+
+.workmode-caroline li {
+  background-color:	white;
+  margin:	5px !important;
+}
+
+.workmode-caroline .portgal-link-nr1 {
+  font-size:	13px;
+}
+
+
+
+
+
+
+.workmode-jessie .portgal-dlayer {
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.5)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+}
+
+.workmode-jessie li {
+  background-color:	white;
+  margin:		0px !important;
+}
+
+.workmode-jessie .portgal-dl-header {
+  font-weight:		bold;
+}
+
+
+
+
+
+.workmode-alexis .nihon-items li {
+  margin:		0px 10px 20px 10px !important;
+  padding:		20px !important;
+  background-color:	white;
+  box-shadow:		0px 0px 5px #E8E8E8;
+}
+
+.workmode-alexis .portgal-alexis-anchor-h1 {
+  color:		#3A3A3A;
+  color:		#3A3A3A !important;
+  font-size:		15px;
+  padding-top:		10px;
+  padding-bottom:	10px;
+  display:		block;
+}
+
+.portgal-alexis-afteranchor {
+  margin-bottom:	10px;
+    opacity:		0.7;
+}
+
+.portgal-username , .portgal-data {
+  padding-left:		5px;
+  padding-right:	10px;
+}
+
+.portgal-data2 {
+}
+
+.portgal-alexis-anchor-readmore {
+  padding-top:	10px;
+  display:	inline-block;
+  font-size:	115%;
+}
+
+
+
+
+
+
+
+.workmode-angelina .nihon-items li {
+  margin:		0px 10px 20px 10px !important;
+  padding:		0px !important;
+  background-color:	white;
+  box-shadow:		0px 0px 5px #E8E8E8;
+}
+
+.workmode-angelina .portgal-angelina-anchor-h1 {
+  color:		#3A3A3A;
+  color:		#3A3A3A !important;
+  font-size:		15px;
+  padding-top:		10px;
+  padding-bottom:	10px;
+  display:		block;
+}
+
+.portgal-angelina-afteranchor {
+  margin-bottom:	10px;
+  opacity:		0.7;
+}
+
+.portgal-angelina-text-wrap {
+  padding:	10px;
+}
+
+
+
+
+
+
+.workmode-chihiro .nihon-items li {
+  margin:		0px 10px 20px 10px !important;
+  padding:		0px !important;
+  background-color:	white;
+  box-shadow:		0px 0px 5px #E8E8E8;
+}
+
+.workmode-chihiro .portgal-chihiro-anchor-h1 {
+  color:		#313131;
+  color:		#313131 !important;
+  font-size:		15px;
+  padding-top:		10px;
+  padding-bottom:	10px;
+  display:		block;
+}
+
+.portgal-chihiro-anchor-category {
+  margin-bottom:	10px;
+  opacity:		0.7;
+}
+
+.portgal-chihiro-anchor-category a {
+  color:		#727272;
+  color:		#727272 !important;
+}
+
+.portgal-chihiro-anchor-category a:hover , .portgal-chihiro-anchor-category a:focus {
+  color:		#3A3A3A;
+  color:		#3A3A3A !important;
+}
+
+.portgal-chihiro-text-wrap {
+  padding:		20px;
+}
+
+.portgal-chihiro-social {
+  text-align:		center;
+  color:		black;
+  font-size:		25px;
+  padding-top:		5px;
+  margin-bottom:	-5px;
+}
+
+.portgal-chihiro-social a {
+  padding-left:		5px;
+  padding-right:	5px;
+  color:		#727272;
+  color:		#727272	!important;
+}
+
+.portgal-chihiro-social a:hover, .portgal-chihiro-social a:focus, .portgal-chihiro-social a:active {
+  color:	#3A3A3A;
+  color:	#3A3A3A	!important;
+}
+
+
+
+
+
+
+
+.workmode-videorose .nihon-items li {
+  margin:		0px 10px 20px 10px !important;
+  padding:		0px !important;
+  background-color:	white;
+  box-shadow:		0px 0px 5px #E8E8E8;
+}
+
+.portgal-videorose-text-wrap {
+  padding:	20px;
+}
+
+.portgal-tabletype-wrapper {
+  display:	table;
+  width:	100%;
+  height:	100%;
+}
+
+.portgal-tabletype-cell {
+  display:		table-cell;
+  vertical-align:	middle;
+  text-align:		center;
+}
+
+.portgal-videorose-play-button {
+  font-size:		75px;
+  color:		white;
+  opacity:		0.5;
+  cursor:		pointer;
+}
+
+.portgal-videorose-play-button:hover {
+  opacity:		1;
+}
+
+.portgal-videorose-anchor-h1 {
+  display:		block;
+  width:		100%;
+  text-align:		center;
+  font-size:		17px;
+  color:		#333333;
+  color:		#333333 !important;
+  padding-bottom:	10px;
+}
+
+.portgal-videorose-anchor-h1:hover, .portgal-videorose-anchor-h1:active, .portgal-videorose-anchor-h1:focus {
+  color:		#696969;
+  color:		#696969 !important;
+}
+
+.portgal-videorose-text-wrap {
+  text-align:		center;
+}
+
+.portgal-videorose-anchor-category {
+  padding-bottom:	5px;
+}
+
+.portgal-videorose-anchor-category a {
+  color:		#7A7A7A;
+  color:		#7A7A7A !important;
+  border-right:		1px #7A7A7A solid;
+  padding-right:	5px;
+  padding-left:		5px;
+}
+
+.portgal-videorose-anchor-category a:hover {
+  opacity:	0.8;
+}
+
+
+.portgal-videorose-anchor-category a:last-child {
+  border-right:		0px white solid;
+}
+
+
+
+
+
+
+
+.portgal-videoaoi-text-wrap {
+  padding:	15px 10px 15px 10px;
+  text-align:	center;
+}
+
+.workmode-videoaoi .nihon-items li {
+  margin:		0px 10px 20px 10px !important;
+  padding:		0px !important;
+  background-color:	white;
+  box-shadow:		0px 0px 5px #E8E8E8;
+}
+
+.portgal-videoaoi-video-button {
+  font-size:		75px;
+  color:		white;
+  opacity:		0.5;
+  cursor:		pointer;
+}
+
+.portgal-videoaoi-video-button:hover {
+  opacity:		1;
+}
+
+.portgal-videoaoi-anchor-h1 {
+  display:		block;
+  width:		100%;
+  text-transform:	uppercase;
+  font-size:		15px;
+  font-weight:		bold;
+  text-align:		center;
+  color:		#333333;
+  color:		#333333 !important;
+  padding-bottom:	10px;
+}
+
+.portgal-videoaoi-anchor-h1:hover, .portgal-videoaoi-anchor-h1:active, .portgal-videoaoi-anchor-h1:focus {
+  color:		#696969;
+  color:		#696969 !important;
+}
+
+.portgal-videoaoi-anchor-category {
+  padding-bottom:	10px;
+}
+
+.portgal-videoaoi-anchor-category a {
+  text-transform:	uppercase;
+  color:		#7A7A7A;
+  color:		#7A7A7A !important;
+  border-right:		1px #7A7A7A solid;
+  padding-right:	5px;
+  padding-left:		5px;
+}
+
+.portgal-videoaoi-anchor-category a:last-child {
+  border-right:		0px white solid;
+}
+
+.portgal-videoaoi-anchor-category a:hover, .portgal-videoaoi-anchor-category a:active, .portgal-videoaoi-anchor-category a:focus {
+  color:		#696969;
+  color:		#696969 !important;
+}
+
+
+
+
+
+
+.workmode-videoayumi .nihon-items li {
+  margin:		0px 10px 20px 10px !important;
+  padding:		10px !important;
+  background-color:	white;
+  box-shadow:		0px 0px 5px #E8E8E8;
+}
+
+.portgal-videoayumi-title {
+    text-align:		center;
+}
+
+.portgal-videoayumi-title a {
+  text-align:		center;
+  font-size:		14px;
+  display:		block;
+  font-weight:		bold;
+  padding-bottom:	5px;
+  margin-bottom:	5px;
+  padding-top:		10px;
+  text-transform:	uppercase;
+  color:		#2C2C2C;
+  color:		#2C2C2C !important;
+  border-bottom:	1px #E9E9E9 solid;
+}
+
+.portgal-videoayumi-title a:hover, .portgal-videoayumi-title a:active, .portgal-videoayumi-title a:focus {
+  color:		#737373;
+  color:		#737373 !important;
+}
+
+.portgal-videoayumi-category {
+  font-size:		12px;
+  text-align:		center;
+  text-transform:	uppercase;
+}
+
+.portgal-videoayumi-category a {
+  color:		#474747;
+  color:		#474747 !important;
+}
+
+.portgal-videoayumi-category a:hover, .portgal-videoayumi-category a:focus, .portgal-videoayumi-category a:active {
+  color:		#737373;
+  color:		#737373 !important;
+}
+
+.portgal-videoayumi-txt {
+  padding-top:		5px;
+  font-size:		12px;
+  color:		#5F5F5F;
+  text-align:		center;
+}
+
+
+.portgal-videoayimu-play-button {
+  cursor:		pointer;
+}
+
+
+
+
+
+
+
+.workmode-silvia .nihon-items li {
+  margin:		0px 5px 10px 5px !important;
+  padding:		5px !important;
+  background-color:	white;
+  box-shadow:		0px 0px 5px #E8E8E8;
+}
+
+.portgal-silvia-main-anchor {
+  padding:	10px 10px 0px 10px;
+  font-size:	20px;
+  color:	white;
+  color:	white !important;
+  display:	block;
+  width:	100%;
+  height:	100%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.workmode-silvia .portgal-dlayer {
+  background-color:	rgba(0, 0, 0, 0.5);
+  
+}
+
+.workmode-silvia  .portgal-after-dlayer-content {
+  width:		100%;
+}
+
+.portgal-silvia-main-a-bold {
+  font-weight:		bold;
+  display:		block;
+  padding:		0px;
+  margin:		0px;
+  line-height:		1.2;
+  text-transform:	uppercase;
+  font-size:		16px;
+}
+
+.portgal-silvia-main-a-undertext {
+  font-size:		12px;
+  line-height:		1.2;
+  display:		block;
+  padding-top:		5px;
+  padding-bottom:	5px;
+}
+
+.workmode-silvia .portgal-bgscale-bgwithopacity {
+	width:		100%; 
+	height:		100%;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.65) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(0,0,0,0)), color-stop(50%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 1%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.65) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 1%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.65) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 1%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.65) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 1%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.65) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+}
+
+
+.workmode-kayla .nihon-items li {
+  margin:		0px !important;
+  background-color:	white;
+}
+
+.portgal-kayla-title {
+  font-size:		15px;
+  text-transform:	uppercase;
+  color:		white;
+  color:		white !important;
+  font-weight:		bold;
+}
+
+.portgal-kayla-category {
+  padding-top:		5px;
+  padding-bottom:	7px;
+}
+
+.portgal-kayla-category a , .portgal-kayla-category a:hover , .portgal-kayla-category a:focus , .portgal-kayla-category a:active {
+ font-size:		12px;
+  color:		#EDEDED;
+  color:		#EDEDED !important;
+}
+
+.portgal-kayla-category a:hover , .portgal-kayla-category a:focus , .portgal-kayla-category a:active {
+  color:		#C3C3C3;
+  color:		#C3C3C3 !important;
+}
+
+.portgal-kayla-txt {
+	font-size:	14px;
+	color:		#C3C3C3;
+}
+
+.portgal-dlayer {
+  height:	100%;
+  display:	block;
+}
+
+
+
+
+
+
+
+
+.workmode-silvia .fdlayer-rotateallx-after {
+	background-color:	black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  /* background-color: #F4F4F4 !important; */
+}
+/*  workmode -- end */
+
+
+
+
+
+
+
+
+
+
+
+.portgal-navigation span {
+  cursor:	pointer;
+}
+
+.portgal-search-button {
+  cursor:	pointer;
+}
+
+.portgal-vfsearch {
+  display:	none;
+}
+
+.fdlayer-wrapper {
+  overflow:		hidden;
+  position:		relative;
+  -webkit-perspective:	100px;
+  perspective: 		100px;
+}
+
+.fdlayer-wrapper-with-overflow-visible {
+  overflow:		visible;
+  -webkit-perspective:	none;
+  perspective: 		none;
+}
+
+.fdlayer-rotateallx-before {
+	
+}
+
+.fdlayer-rotateallx-after {
+	background-color:	grey;
+	background: rgb(238,238,238);
+	background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(238,238,238,1)));
+	background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%);
+	background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%);
+	background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%);
+	background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%);
+	filter:		progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 );
+	display:		none;
+	width:	100%;
+	height:	100%;
+	
+}
+
+.portgal-dlayer, .portgal-dlayer_widthborderbottom {
+    display:		none;
+    background-color:	rgba(0, 0, 0,  0.6);
+    background-position:	center center;
+    position:		absolute;
+    width:		100%;
+    height:		0px;
+    top:		0px;
+    -webkit-transform:	rotateX(0deg); /* Chrome, Safari, Opera  */
+    transform:		rotateX(0deg);
+}
+
+.portgal-dlayer_widthborderbottom {
+  display:		block;
+  height:		100%;
+  top:			calc(100% - 10px);
+}
+
+.portgal-dlayer-content {
+  display:	none;
+}
+
+.portgal-fromdarkbg-before {
+    display: 		table;
+    background-color:	rgba(0, 0, 0,  0.6);
+    position:		absolute;
+    width:		100%;
+    height:		100%;
+    top:		0px;
+    text-align:		center;
+}
+
+.portgal-fromdarkbg-before-txt-rapper {
+    display:		table-cell;
+    text-align:		center;
+    vertical-align:	middle;
+    width:		100%;
+    height:		100%;
+}
+
+.portgal-fromdarkbg-before-txt {
+    display:	inline-block;
+    padding:		10px;
+    background-color:	rgba(0, 0, 0,  0.3);
+    color:		white;
+    color:		white !important;
+    font-weight:	bold;
+    
+}
+
+.portgal-fromdarkbg-before-txt a {
+    color:		white;
+    color:		white !important;
+}
+
+.portgal-dlayer-after {
+    display:		block;
+    position:		absolute;
+    width:		100%;
+    height:		100%;
+    top:		0px;
+}
+
+.portgal-dlayer.portgal-dlayer-transparent , .portgal-dlayer-transparent {
+    background-color:	transparent;
+    background-repeat:	no-repeat;
+}
+
+.portgal-hidden {
+    display:	none;
+}
+
+.portgal-bgscale {
+  background-repeat:	no-repeat;
+  background-position:	center center;
+  background-color:	white;
+}
+
+.portgal-navigation {
+	 font-size:	12px; 
+}
+
+
+.portgal-after-dlayer-content { /* dla withunderlineandautoheight */
+  position:	absolute;
+  bottom:	10px;
+}
+
+.portgal-dlayer-upbg { /* dla upbg  */
+	display:	none;
+	height:		0px;
+}
+
+.portgal-dlayer-withbottomarea { /* dla withbottomarea */
+  display:		none;
+  padding:		15px;
+  background-color:	rgba(0,0,0,0.8);
+  position:		absolute;
+  top:			0px;
+  z-index:		1000;
+  color:		white;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+.portgal-bggray {
+  -webkit-filter:	grayscale(100%);
+  filter:		grayscale(100%);
+  filter:		gray;
+  filter:		url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+}
+
+.portgal-opacity-0 {
+  opacity:		0;
+}
+
+.portgal-circle-anchor {
+  cursor:	pointer;
+}
+
+.portgal-circle-anchortype1:before, .portgal-circle-anchortype1b:before, .portgal-circle-anchortype1b2:before {
+  transition-duration:	0.3s;
+  color:		white;
+  padding:		20px 21px 20px 21px;
+  border-radius:	50%;
+  background-color:	rgba(255, 255, 255, 0.2);
+  display:		block;
+  font-size:		17px;
+  line-height:		1;
+}
+
+.portgal-circle-anchortype1:hover:before, .portgal-circle-anchortype1b:hover:before, .portgal-circle-anchortype1b2:hover:before {
+  background-color:	rgba(0, 0, 0, 0.5);
+}
+
+.portgal-circle-anchortype1 , .portgal-circle-anchortype1b, .portgal-circle-anchortype1b2 {
+  position:		absolute;
+  opacity:		0;
+  color:		white;
+}
+
+.portgal-circle-anchortype1b:before {
+  background-color:	rgba(0, 0, 0, 0.2);
+}
+
+.portgal-circle-anchortype1b2:before {
+  background-color:	rgba(0, 0, 0, 0.5);
+}
+
+.portgal-circle-anchortype1b2:hover:before {
+  background-color:	rgba(0, 0, 0, 0.7);
+}
+
+.portgal-circle-anchortype2:before {
+  transition-duration:	0.3s;
+  color:		rgba(255, 255, 255, 0.9);
+  padding:		17px;
+  border-radius:	50%;
+  display:		block;
+  font-size:		15px;
+  line-height:		1;
+  border:		2px rgba(255, 255, 255, 0.9) solid;
+}
+
+.portgal-circle-anchortype2:hover:before {
+  border:		2px rgba(255, 255, 255, 1) solid;
+  color:		rgba(255, 255, 255, 1);
+  background-color:	rgba(255, 255, 255, 0.1);
+}
+
+.portgal-circle-anchortype2 {
+  position:		absolute;
+  opacity:		0;
+  color:		white;
+}
+
+.portgal-dlayer-h100 {
+  height:	100%;
+  display:	block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.portgal-circle-anchor, .portgal-circle-anchor:hover, .portgal-circle-anchor:active, .portgal-circle-anchor:focus , 
+.portgal-link, .portgal-link:hover, .portgal-link:active, .portgal-link:focus {
+  outline:	0px white solid;
+}
+
+.portgal-link {
+  position:	absolute;
+  display:	block;
+  opacity:	0;
+  cursor:	pointer;
+}
+
+.portgal-link:hover {
+  cursor:	pointer;
+}
+
+.portgal-text-link {
+  text-align:	center;
+  /* width:	100%; -- nie działa w chihiro */
+}
+
+a.portgal-text-link-type-1, a.portgal-text-link-type-1wa, span.portgal-text-link-type-1wa, a.portgal-text-link-type-2 {
+  color:	white;
+  color:	white !important;
+  background-color:	rgba(0,0,0,0.5);
+  /* width:	auto;  w circlefromleftandrightwithtxt beznadziejnie */
+  padding:	5px 10px 5px 10px;
+  line-height:	1.2;
+}
+
+a.portgal-text-link-type-1:hover, a.portgal-text-link-type-1wa:hover, span.portgal-text-link-type-1wa:hover {
+  background-color:	rgba(0,0,0,0.6);
+}
+
+a.portgal-text-link-type-2 {
+  transition-duration:	0.3s;
+  background-color:	rgba(255,255,255,0.2);
+}
+
+ a.portgal-text-link-type-2:hover {
+  background-color:	rgba(0, 0, 0, 0.5);
+}
+
+a.portgal-text-link-type-1 {
+ 
+}
+
+a.portgal-text-link-type-1wa, span.portgal-text-link-type-1wa {
+  width:	auto;
+}
+
+.portgal-text-bold {
+  font-weight:	bold;
+}
+
+.portgal-text-bigger {
+  font-weight:	bold;
+  font-size:	14px;
+}
+
+
+
+.portgal-lightboxwrap {
+  display:	none;
+  /* opacity:	1; */
+  position:	fixed;
+  background-color:	rgba(0,0,0,0.9);
+  
+  top:		0px;
+  bottom:	0px;
+  left:		0px;
+  right:	0px;
+  z-index:	9999;
+  text-align:	center;
+}
+
+.portgal-ajaxpreolader {
+  background-image:	url('preloaderlightbox.gif');
+  background-position:	center center;
+  background-repeat:	no-repeat;
+  width:		50px;
+  height:		50px;
+  border-radius:	50%;
+  background-color:	white;
+  position:		absolute;
+  top:			50%;
+  top:			calc(50% - 25px);
+  left:			50%;
+  left:			calc(50% - 25px);
+}
+
+.portgal-lightboximgwrap {
+  min-width:		100px;
+  min-height:		100px;
+  background-color:	rgba(0, 0, 0, 0.5);
+}
+
+.portgal-lightboxwrapimage1 {
+    display:		inline-block;
+    margin:		0px auto 0px auto;
+    background-color:	rgba(255, 255, 255, 0.9);
+    width:		auto;
+    padding:		10px;
+    border:		1px #888 solid;
+    box-shadow:		0px 0px 25px white;
+    position:		relative;
+}
+
+.portgal-lightboxwrapimage2 {
+    display:		inline-block;
+    margin:		0px auto 0px auto;
+    width:		auto;
+    box-shadow:		0px 0px 25px black;
+    position:		relative;
+}
+
+.portgal-lightboxwrapimage {
+    opacity:	0;
+}
+
+
+.portgal-lightboxclose:before {
+  width:		24px;
+  height:		24px;
+  display:		block;
+  line-height:		24px;
+  font-size:		13px;
+  font-weight:		normal;
+}
+
+.portgal-lightboxclose:hover {
+  box-shadow:		0px 0px 5px white;
+  cursor:		pointer;
+}
+
+.portgal-lightboxclose {
+  transition-duration:	0.3s;
+  right:		0px;
+  margin-top:		-30px;
+  margin-right:		-30px;
+  background-color:	black;
+  border:		2px white solid;
+  color:		white;
+  text-align:		center;
+  border-radius:	50%;
+  z-index:		99999999;
+  position:		absolute;
+}
+
+.portgal-lightboxwrapimage2 .portgal-lightboxclose {
+  margin-top:		-15px;
+  margin-bottom:	-15px;
+  margin-right:		-15px;
+}
+
+.portgal-textunderimage {
+  position:		absolute;
+  text-align:		center;
+  width:		100%;
+  margin-top:		10px;
+  color:		white;
+  font-weight:		bold;
+  font-size:		15px;
+}
+
+.portgal-lightbox-navigation {
+  margin:		0px;
+  padding:		0px;
+  list-style-type:	none;
+  position:		absolute;
+  top:		0px;
+  bottom:	0px;
+  left:		0px;
+  right:	0px;
+}
+
+.portgal-lightbox-navigation li {
+  color:		#ECECEC;
+  font-size:		24px;
+  text-shadow:		0px 0px 20px black;
+  transition-duration:	0.2s;
+  height:		100%;
+  position:		absolute;
+  opacity:		0;
+  list-style-type:	none !important;
+}
+
+.portgal-lightbox-navigation li span {
+    position:	absolute;
+    left:	30px;
+    transition-duration:	0.2s;
+}
+
+.portgal-lightbox-navigation li:hover {
+  color:	white;
+  cursor:	pointer;
+  opacity:	1;
+}
+
+
+.portgal-lightbox-navigation li:first-child {
+  width:	30%;
+  left:		0px;
+}
+
+.portgal-lightbox-navigation li:last-child span {
+    left:	auto;
+    right:	30px;
+}
+
+.portgal-lightbox-navigation li:last-child {
+  width:	30%;
+  right:	0px
+}
+
+.portgal-lightboxhidden {
+  position:	absolute;
+  top:		-99999999px;
+  width:	10000px;
+  height:	10000px;
+}
+
+
+.portgal-link.darklayerlikedooronce {
+  width:	100%;
+}
+
+.portgal-link.darklayerlikedoordouble {
+  width:	50%;
+}
+
+.portgal-link-nr2.darklayerlikedoordouble {
+  right:		0px;
+  -webkit-transform:	rotateY(-90deg);
+  transform:		rotateY(-90deg);
+}
+
+.portgal-button-link-ltab {
+  display:	block;
+  width:	50px;
+  height:	50px;
+  bottom:	0px;
+  position:	absolute;
+  background-color:	blue;
+}
+
+.portgal-dl-header {
+  bottom:	0px;
+  position:	absolute;
+}
+
+.portgal-dl-subtext {
+  position:	absolute;
+  bottom:	0px;
+  display:	none;
+  width:	100%;
+}
+
+
+.portgal-dlayer_uptext-wrap {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  display:	block;
+  width:	100%;
+  height:	100%;
+  color:	white !important;
+}
+
+.portgal-dl-header {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding:	10px;
+  font-size:	14px;
+}
+
+.portgal-dl-subtext {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding:	10px;
+  font-size:	12px;
+
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.9)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%);
+
+}
+
+
+.portgal-dl-downtext-subtext_bottom {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  position:	absolute;
+  bottom:	0px;
+  display:	block;
+  width:	100%;
+  color:	white;
+}
+
+.portgal-dl-downtext-subtext_bottom {
+  padding:	20px 10px 15px 10px ;
+  font-size:	17px;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.5)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+}
+
+
+body {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.portgal-button-loadmore-wrap span ,
+.portgal-navigation-wrap .portgal-navigation span {
+  transition-duration:	0.2s;
+}
+
+.portgal-navigation-wrap {
+  padding:	5px;
+}
+
+.portgal-navigation {
+  display:	inline-block;
+}
+
+.portgal-navigation-order {
+  display:	inline-block;
+}
+
+
+.portgal-navigation-wrap .portgal-navigation {
+  vertical-align:	top;
+}
+
+.portgal-button-loadmore-wrap span:hover ,
+.portgal-navigation-wrap .portgal-navigation span:hover, .portgal-navigation-wrap .portgal-navigation span.portgal-check {
+ color:		black; 
+}
+
+.portgal-navigation-wrap .portgal-search, .portgal-navigation-wrap .portgal-search:hover, .portgal-navigation-wrap .portgal-search:active, .portgal-navigation-wrap .portgal-search:focus {
+  font-weight:		400;
+  -moz-box-sizing: 	border-box;
+  display:		inline-block;
+  
+  font-size:		12px;
+  box-shadow:		none;
+  border-top-left-radius:		5px;
+  border-bottom-left-radius:		5px;
+  height:		30px;
+  margin:		0px;
+  vertical-align:	top;
+  border:		1px #CFCFCF solid;
+  border-right:		0px;
+  background-color:	rgba(255,255,255,0.8);
+  color:		#515151;
+  margin-left:		10px;
+  width:		150px;
+  
+  
+  padding-top:		0px;
+  padding-bottom:	0px;
+}
+
+.portgal-navigation-wrap .portgal-search-button:before {
+  content:		"\f002";
+  font-family:		FontAwesome;
+  vertical-align:	top;
+  line-height:		28px;
+  font-size:		15px;
+}
+
+.portgal-navigation-wrap .portgal-search-button {
+  color:		#515151;
+  background-color:	rgba(255,255,255,0.8);
+  border:		1px #CFCFCF solid;
+  display:		inline-block;
+  height:		30px;
+  line-height:		30px;
+  padding-left:		10px;
+  padding-right:	10px;
+  border-top-right-radius: 		5px;
+  border-bottom-right-radius:		5px;
+  margin:		0px;
+  vertical-align:	top;
+  margin-right:		10px;
+}
+
+.portgal-button-loadmore-wrap span.portgal-button-loadmore ,
+.portgal-navigation-wrap .portgal-clear-search-button {
+  color:		#515151;
+  font-size:		12px;
+  line-height:		17px;
+  background-color:	rgba(255,255,255,0.8);
+  border:		1px #CFCFCF solid;
+  display:		inline-block;
+  height:		30px;
+  line-height:		30px;
+  padding-left:		10px;
+  padding-right:	10px;
+  border-radius: 		5px;
+  margin:		0px;
+  vertical-align:	top;
+  margin-right:		10px;
+  cursor:		pointer;
+}
+
+.portgalorderby-txt , .portgalorderby-txtshow {
+  position:	relative;
+  top:		-1px;
+}
+
+.portgal-button-loadmore-wrap span.portgal-button-loadmore:hover ,
+.portgal-navigation-wrap .portgal-clear-search-button:hover ,
+.portgal-navigation-wrap .portgal-search-button:hover {
+  background-color:	#F8F8F8;
+}
+
+.portgal-button-loadmore-wrap span.portgal-button-loadmore:active ,
+.portgal-navigation-wrap .portgal-search-button:hover ,
+.portgal-navigation-wrap .portgal-search-button:active {
+  background-color:	#EEEEEE;
+}
+
+.portgal-button-loadmore-wrap {
+  text-align:		center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.portgal-navigation-wrap .portgalorderby {
+  color:		#515151;
+  border:		0px;
+  margin:		0px;
+  padding:		0px;
+  background-color:	rgba(255,255,255,0.8);
+  border:		1px #CFCFCF solid;
+  height:		30px;
+  
+  line-height:		30px;
+  width:		100%;
+  padding-top:		5px;
+  padding-bottom:	5px;
+  outline:		none;
+  opacity:		0;
+  left:			0px;
+  position:		absolute;
+  cursor: 		pointer;
+  display:		inline-block;
+  
+}
+
+.portgal-navigation-wrap .portgalorderby-wrap {
+  display:		inline-block;
+  position:		relative;
+  height:		30px;
+  cursor:		pointer; 
+  
+  padding-left:		10px;
+  padding-right:	10px;
+  line-height:		30px;
+  font-size:		12px;
+}
+
+.portgal-navigation-wrap .portgalorderby option, .portgal-navigation-wrap select.portgalorderby {
+  color:		#515151;
+  color:		#515151 !important;
+  vertical-align:	center;
+}
+
+.portgal-navigation-wrap .portgal-orderbytype-button {
+  cursor:		pointer;
+  height:		30px;
+  display:		inline-block;
+  padding-left:		10px;
+  padding-right:	10px;
+  font-size:		15px;
+  
+  line-height:		30px;
+}
+
+.portgal-navigation-wrap .portgal-orderbytype-button.asc:before {
+  content:		"\f107";
+  font-family:		FontAwesome;
+  color:		#515151;
+}
+
+.portgal-navigation-wrap .portgal-orderbytype-button.desc:before {
+  color:		#515151;
+  content:		"\f106";
+  font-family:		FontAwesome;
+}
+
+.portgal-navigation-wrap .portgal-orderbytype-button:hover:before {
+  color:		#282828;
+}
+
+.portgal-navigation-wrap {
+  text-align: 		center;
+  margin-bottom:	20px;
+}
+
+.portgal-button-loadmore-wrap span ,
+.portgal-navigation-wrap .portgal-navigation span {
+  height:		30px;
+  line-height:		30px;
+  display:		inline-block;
+  padding-left:		2px;
+  padding-right:	2px;
+}
+
+.portgal-navigation-wrap .portgal-orderbytype-button ,
+.portgal-navigation-wrap .portgal-navigation span , 
+.portgal-navigation-wrap .portgalorderby-wrap ,
+.portgal-navigation-wrap .portgal-search-button ,
+.portgal-navigation-wrap .portgal-clear-search-button,
+.portgal-navigation-wrap .portgal-search , 
+.portgal-navigation-wrap .portgal-search:hover,
+.portgal-navigation-wrap .portgal-search:active,
+.portgal-navigation-wrap .portgal-search:focus{
+  margin-top:		5px;
+  margin-bottom:	5px;
+}
+
+
+.portgal-button-loadmore-wrap span.portgal-button-loadmore {
+  margin-top:		20px;
+  margin-bottom:	20px;  
+}
+
+/* portgal navigation default: end * /
+
+
+
+/* portgal-navigation-type-1 * /
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-navigation-order {
+  height:		30px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-search-button {
+  position:		absolute;
+  margin-left:		-150px;
+  border-radius:	0px;
+  border:		0px white solid;
+  background-color:	transparent;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-search-button:before {
+  color:		#707070;
+  line-height:		30px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-search-button:active:before,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-search-button:focus:before,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-search-button:hover:before {
+  color:		#5B5B5B;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-search {
+  margin-left:		10px;
+  margin-right:		0px;
+  border-radius:	15px;
+  border:		1px white solid;
+  border-left:		0px;
+  width:		150px;
+  padding:		0px;
+  padding-left:		30px;
+  padding-top:		2px;
+  padding-bottom:	0px;
+  padding-right:	7px;
+  border:		1px #CFCFCF solid;
+  box-shadow:		inset 0px 5px 5px 0px rgba(0,0,0,0.15);
+  
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgalorderby-wrap {
+  border:		1px #CFCFCF solid;
+  box-shadow:		0px 0px 5px 0px rgba(0,0,0,0.15);
+  
+  
+  border-top-left-radius:	15px;
+  border-bottom-left-radius:	15px;
+  padding-left:		10px;
+  padding-right:	10px;
+  background-color:	rgba(255,255,255,0.8);
+  margin-right:		0px;
+  border-right:		0px white solid;
+  
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-orderbytype-button {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color:	rgba(255,255,255,0.8);
+  box-shadow:		0px 0px 5px 0px rgba(0,0,0,0.15);
+  border:		1px #CFCFCF solid;
+  border-left:		0px white solid;
+  margin-left:		-4px;
+  position:		relative;
+  
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgalorderby-txt , .portgal-navigation-wrap.portgal-navigation-type-1 .portgalorderby-txtshow {
+  position:	relative;
+  top:		0px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-navigation span, .portgal-button-loadmore-wrap.portgal-blm-type-1 span {
+  border:		1px #CFCFCF solid;
+  box-shadow:		0px 0px 5px 0px rgba(0,0,0,0.15);
+  height:		30px;
+  line-height:		30px;
+  
+  border-radius:	15px;
+  padding-left:		10px;
+  padding-right:	10px;
+  background-color:	rgba(255,255,255,0.8);  
+  display:		inline-block;
+  margin-right:		2px;
+  margin-left:		2px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-clear-search-button {
+  border-radius:	15px;
+  background-color:	rgba(255,255,255,0.8);
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgalorderby-wrap {
+  margin-left:		10px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-1 {
+  text-align:		center;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-1 span {
+  cursor:		pointer;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-navigation span , 
+.portgal-button-loadmore-wrap.portgal-blm-type-1 span ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgalorderby-wrap ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-search {
+  margin-top:		5px;
+  margin-bottom:	5px;
+}
+
+/* portgal-navigation-type-1 - end * /
+
+
+/* portgal-navigation-type-2 - begin * /
+
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-navigation span , .portgal-button-loadmore-wrap.portgal-blm-type-2 span {
+  padding-left:		10px;
+  padding-right:	10px;
+  margin-right:		2px;
+  margin-left:		2px;
+  background-color:	rgba(255,255,255, 0.8);
+  border:		1px white solid;
+  font-weight:		bold;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-2 {
+  text-align:		center;
+  margin-top:		20px;
+  margin-bottom:	20px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-2 span {
+  cursor:	pointer; 
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgalorderby-wrap {
+  background-color:	rgba(255,255,255, 0.8);
+  border:		1px white solid;
+  height:		30px;
+  line-height:		30px;
+  padding-left:		10px;
+  padding-right:	10px;
+  
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgalorderby-txtshow ,  .portgal-navigation-wrap.portgal-navigation-type-2 .portgalorderby-txt {
+  font-weight:		bold;  
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-orderbytype-button {
+  background-color:	rgba(255,255,255, 0.8);
+  border:		1px white solid;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-search {
+  border-radius:	0px;
+  background-color:	rgba(255,255,255, 0.8);
+  border:		1px white solid;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-2 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-search-button {
+  border-radius:	0px;
+  background-color:	rgba(255,255,255, 0.8);
+  border:		1px white solid;
+  margin-left:		10px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-2 span.portgal-button-loadmore {
+  margin-left:	0px;
+  margin-right:	0px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-navigation span , 
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgalorderby-wrap ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-search {
+  margin-top:		5px;
+  margin-bottom:	5px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-clear-search-button {
+  border-radius:	0px;
+  background-color:	rgba(255,255,255, 0.8);
+  border:		1px white solid;
+  font-weight:		bold;  
+}
+
+
+/* portgal-navigation-type-2 - end * /
+
+
+
+/* portgal-navigation-type-3 - begin * /
+
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-navigation span , .portgal-button-loadmore-wrap.portgal-blm-type-3 span {
+  padding-left:		10px;
+  padding-right:	10px;
+  margin-right:		2px;
+  margin-left:		2px;
+  background-color:	rgba(0,0,0, 0.8);
+  border:		1px #000 solid;
+  color:		white;
+  border-radius:	3px;
+  box-shadow:		inset 0px 5px 5px 0px rgba(125,125,125,0.2);
+  text-shadow:		0px 1px 0px black;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-3 {
+  text-align:		center;
+  margin-top:		20px;
+  margin-bottom:	20px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-3 span {
+  cursor:	pointer; 
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgalorderby-wrap {
+  background-color:	rgba(0,0,0, 0.8);
+  border:		1px #000 solid;
+  height:		30px;
+  line-height:		30px;
+  padding-left:		10px;
+  padding-right:	10px;
+  color:		white;
+  border-radius:	3px;
+  /* top:			-2px; * /
+  box-shadow:		inset 0px 5px 5px 0px rgba(125,125,125,0.2);
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-orderbytype-button {
+  background-color:	rgba(0,0,0, 0.8);
+  border:		1px #000 solid;
+  color:		white;
+  border-radius:	3px;
+  box-shadow:		inset 0px 5px 5px 0px rgba(125,125,125,0.2);
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-orderbytype-button:before {
+  color:		white;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-search {
+  border-radius:	3px;
+  background-color:	rgba(0,0,0, 0.8);
+  border:		1px #000 solid;
+  color:		white;
+  box-shadow:		inset 0px 5px 5px 0px rgba(125,125,125,0.2);
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-search-button {
+  border-radius:	3px;
+  background-color:	rgba(0,0,0, 0.8);
+  border:		1px #000 solid;
+  margin-left:		10px;
+  color:		white;
+  box-shadow:		inset 0px 5px 5px 0px rgba(125,125,125,0.2);
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-3 span:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-navigation span:hover, .portgal-navigation-wrap.portgal-navigation-type-3 .portgal-navigation span.portgal-check {
+  background-color:	rgba(150,150,150, 0.8);
+  border:		1px rgba(200,200,200, 0.8) solid;
+  color:		#262626;
+  text-shadow:		none;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-navigation span , 
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgalorderby-wrap ,
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-search {
+  margin-top:		5px;
+  margin-bottom:	5px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-3 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-clear-search-button {
+  border-radius:	3px;
+  background-color:	rgba(0,0,0, 0.8);
+  border:		1px #000 solid;
+  margin-left:		0px;
+  color:		white;
+  box-shadow:		inset 0px 5px 5px 0px rgba(125,125,125,0.2);
+}
+
+
+
+
+/* portgal-navigation-type-3 - end * /
+
+/* portgal-navigation-type-4 - begin * /
+
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-navigation span, .portgal-button-loadmore-wrap.portgal-blm-type-4 span {
+  padding-left:		10px;
+  padding-right:	10px;
+  margin-right:		2px;
+  margin-left:		2px;
+  color:		#3a3a3a;
+  text-shadow:		0px 1px 1px white;
+  border-radius:	3px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-4 {
+  text-align:		center;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-4 span {
+  cursor:	pointer;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgalorderby-wrap {
+  height:		30px;
+  line-height:		30px;
+  padding-left:		10px;
+  padding-right:	10px;
+  color:		#3a3a3a;
+  text-shadow:		0px 1px 1px white;
+  border-radius:	3px;
+  
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-orderbytype-button {
+  color:		#3a3a3a;
+  text-shadow:		0px 1px 1px white;
+  border-radius:	3px;
+  position:		relative;
+  
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-orderbytype-button:before {
+  color:		#3a3a3a;
+  text-shadow:		0px 1px 1px white;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-search {
+  border-radius:	3px;
+  color:		#3a3a3a;
+  text-shadow:		0px 1px 1px white;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-search-button {
+  border-radius:	3px;
+  margin-left:		10px;
+  color:		#3a3a3a;
+  text-shadow:		0px 1px 1px white;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-clear-search-button {
+  color:		#3a3a3a;
+  text-shadow:		0px 1px 1px white;  
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-clear-search-button ,
+.portgal-button-loadmore-wrap.portgal-blm-type-4 span ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-navigation span ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgalorderby-wrap ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-search-button {
+  background: #d0d0d0;
+  background: -moz-linear-gradient(top, #d0d0d0 0%, #b2b2b2 50%, #969696 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0d0d0), color-stop(50%,#b2b2b2), color-stop(100%,#969696));
+  background: -webkit-linear-gradient(top, #d0d0d0 0%,#b2b2b2 50%,#969696 100%);
+  background: -o-linear-gradient(top, #d0d0d0 0%,#b2b2b2 50%,#969696 100%);
+  background: -ms-linear-gradient(top, #d0d0d0 0%,#b2b2b2 50%,#969696 100%);
+  background: linear-gradient(to bottom, #d0d0d0 0%,#b2b2b2 50%,#969696 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0d0d0', endColorstr='#969696',GradientType=0 );
+}
+
+
+ 
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-navigation span:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-navigation span.portgal-check {
+  border:		none;
+  color:		#E6E6E6;
+  text-shadow:		0px 1px 1px black;
+  background:		 #a4a4a4;
+  background: -moz-linear-gradient(top, #a4a4a4 0%, #868686 50%, #686868 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a4a4a4), color-stop(50%,#868686), color-stop(100%,#686868));
+  background: -webkit-linear-gradient(top, #a4a4a4 0%,#868686 50%,#686868 100%);
+  background: -o-linear-gradient(top, #a4a4a4 0%,#868686 50%,#686868 100%);
+  background: -ms-linear-gradient(top, #a4a4a4 0%,#868686 50%,#686868 100%);
+  background: linear-gradient(to bottom, #a4a4a4 0%,#868686 50%,#686868 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4a4a4', endColorstr='#686868',GradientType=0 );
+}
+
+
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-navigation span , 
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgalorderby-wrap ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-search {
+  margin-top:		5px;
+  margin-bottom:	5px;
+}
+
+/* portgal-navigation-type-4 - end * /
+
+/* portgal-navigation-type-5 - begin * /
+
+
+.portgal-button-loadmore-wrap.portgal-blm-type-5 span ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-navigation span  {
+  border-top:		2px #C5C5C5 solid;
+  border-bottom:	2px #C5C5C5 solid;
+  padding-left:		5px;
+  padding-right:	5px;
+  line-height: 		28px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-5 {
+  text-align:		center;
+}
+
+
+.portgal-button-loadmore-wrap.portgal-blm-type-5 span {
+  display:		inline-block;
+  line-height: 		28px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-5 span:hover {
+  cursor:		pointer;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-search-button {
+  border-top:		2px #C5C5C5 solid;
+  border-bottom:	2px #C5C5C5 solid;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-5 span ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-search  {
+  border-left:		0px #C5C5C5 solid;
+  border-right:		0px #C5C5C5 solid;
+  border-radius:	0px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-5 span ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-clear-search-button {
+  padding-left:		10px;
+  padding-right:	10px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgalorderby-wrap {
+  border-top:		2px #C5C5C5 solid;
+  border-bottom:	2px #C5C5C5 solid;
+  padding-left:		10px;
+  height:		30px;
+  line-height:		28px;
+  margin-left:		10px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-orderbytype-button {
+  margin-left:		-3px;
+  position:		relative;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-search-button:active,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-search-button:focus,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-search-button:hover {
+  background-color:	white;
+}
+
+
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-navigation span:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-navigation span.portgal-check {
+  border-color:		#6D6D6D;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-navigation span , 
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgalorderby-wrap ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-search {
+  margin-top:		5px;
+  margin-bottom:	5px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-search {
+  padding-top:		2px;
+}
+
+
+/* portgal-navigation-type-5 - end * /
+
+/* portgal-navigation-type-6 - begin * /
+/*	portgal-navigation-type-6 * /
+
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span {
+  left:			0px;
+  right:		0px;
+  display:		block;
+  float:		left;
+  border-right:		1px #474747 solid;
+}
+
+.portgal-blm-type-6 {
+  text-align:		center;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-6 span.portgal-button-loadmore {
+  border-radius:	0px;
+  border-width:		0px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span ,
+.portgal-button-loadmore-wrap.portgal-blm-type-6 span {
+  margin-left:		0px;
+  margin-right:		0px;
+  padding-left:		20px;
+  padding-right:	20px;
+  height:		40px;
+  line-height:		40px;
+  background-color:	#2d2d2d;
+  text-align:		center;
+  font-weight:		bold;
+  text-transform:	uppercase;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-clear-search-button,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span , .portgal-button-loadmore-wrap.portgal-blm-type-6 span , .portgal-navigation-wrap.portgal-navigation-type-6 .portgalorderby-wrap,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-search-button {
+  color:	#f8f8f8;
+  background:	rgb(60,60,60);
+  background:	-moz-linear-gradient(top, rgba(60,60,60,1) 0%, rgba(33,33,33,1) 100%);
+  background:	-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(60,60,60,1)), color-stop(100%,rgba(33,33,33,1)));
+  background:	-webkit-linear-gradient(top, rgba(60,60,60,1) 0%,rgba(33,33,33,1) 100%);
+  background:	-o-linear-gradient(top, rgba(60,60,60,1) 0%,rgba(33,33,33,1) 100%);
+  background:	-ms-linear-gradient(top, rgba(60,60,60,1) 0%,rgba(33,33,33,1) 100%);
+  background:	linear-gradient(to bottom, rgba(60,60,60,1) 0%,rgba(33,33,33,1) 100%);
+  filter:	progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3c3c', endColorstr='#212121',GradientType=0 );
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span:last-child, .portgal-button-loadmore-wrap.portgal-blm-type-6 span {
+  border-right:		none;
+}
+
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span.portgal-check {
+  background:	rgb(33,33,33);
+  background:	-moz-linear-gradient(top, rgba(33,33,33,1) 0%, rgba(0,0,0,1) 100%);
+  background:	-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(33,33,33,1)), color-stop(100%,rgba(0,0,0,1)));
+  background:	-webkit-linear-gradient(top, rgba(33,33,33,1) 0%,rgba(0,0,0,1) 100%);
+  background:	-o-linear-gradient(top, rgba(33,33,33,1) 0%,rgba(0,0,0,1) 100%);
+  background:	-ms-linear-gradient(top, rgba(33,33,33,1) 0%,rgba(0,0,0,1) 100%);
+  background:	linear-gradient(to bottom, rgba(33,33,33,1) 0%,rgba(0,0,0,1) 100%);
+  filter:	progid:DXImageTransform.Microsoft.gradient( startColorstr='#212121', endColorstr='#000000',GradientType=0 );
+  color:	white;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-6 span:hover {
+  cursor:		pointer;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgalorderby-wrap {
+  padding-top:		10px;
+  padding-bottom:	10px;
+  line-height:		20px;
+  margin:		0px;
+  padding-right:	10px;
+  padding-left:		10px;
+  font-weight:		bold;
+  text-transform:	uppercase;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-search-button {
+  padding-top:		10px;
+  padding-bottom:	10px;
+  line-height:		20px;
+  margin:		0px;
+  padding-right:	10px;
+  padding-left:		10px;
+  border:		none;
+  border-radius:	0px;
+  height:		40px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgalorderby-wrap {
+  height:		40px;
+  line-height:		20px;
+  padding-top:		11px;
+  position:		relative;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-orderbytype-button {
+  position:		relative;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span , 
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgalorderby-wrap ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-search {
+  margin-top:		5px;
+  margin-bottom:	5px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-clear-search-button {
+  font-weight:		bold;
+  margin-left:		3px;
+  text-transform:	uppercase;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-orderbytype-button.desc:before,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-orderbytype-button.asc:before {
+  color:		white;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-orderbytype-button.asc , 
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-orderbytype-button.desc {
+  margin-left:		-5px;
+  margin-right:		3px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-search  {
+  padding-top:		10px;
+  padding-bottom:	10px;
+  line-height:		20px;
+  height:		40px; /* głupie wartosci 39 ale na chromie na 40 dziwnie wygląda * /
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-search-button:before {
+  line-height:		20px;
+}
+/* portgal-navigation-type-6 - end * /
+
+
+
+
+
+
+
+/* portgal-navigation-type-7 - begin * /
+
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-navigation span , .portgal-button-loadmore-wrap.portgal-blm-type-7 span {
+  padding-left:		10px;
+  padding-right:	10px;
+  margin-right:		2px;
+  margin-left:		2px;
+  background-color:	rgba(255,255,255, 0.8);
+  border:		1px #D8D8D8 solid;
+  font-weight:		bold;
+  line-height:		30px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-7 {
+  text-align:		center;
+  margin-top:		20px;
+  margin-bottom:	20px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-7 span {
+  cursor:	pointer; 
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgalorderby-wrap {
+  background-color:	rgba(255,255,255, 0.8);
+  border:		1px #D8D8D8 solid;
+  height:		30px;
+  line-height:		28px;
+  padding-left:		10px;
+  padding-right:	10px;
+  top:			-2px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgalorderby-txtshow ,  .portgal-navigation-wrap.portgal-navigation-type-7 .portgalorderby-txt {
+  font-weight:		bold;  
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-orderbytype-button {
+  background-color:	rgba(255,255,255, 0.8);
+  border:		1px #D8D8D8 solid;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-search {
+  border-radius:	0px;
+  background-color:	rgba(255,255,255, 0.8);
+  border:		1px #D8D8D8 solid;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-7 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-search-button {
+  border-radius:	0px;
+  background-color:	rgba(255,255,255, 0.8);
+  border:		1px #D8D8D8 solid;
+  margin-left:		10px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-7 span.portgal-button-loadmore {
+  margin-left:	0px;
+  margin-right:	0px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-navigation span , 
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgalorderby-wrap ,
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-search {
+  margin-top:		5px;
+  margin-bottom:	5px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-clear-search-button {
+  border-radius:	0px;
+  background-color:	rgba(255,255,255, 0.8);
+  border:		1px #D8D8D8 solid;
+  font-weight:		bold;  
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-clear-search-button {
+  line-height:		28px;
+}
+
+
+/* portgal-navigation-type-7 - end */
+
+
+.nihon-portgal-wrap {
+  margin:	0px auto 0px auto;
+  padding:	0px;
+}
+
+.portgal-navigation-wrap {
+  padding:	5px;
+}
+
+.nihon-portgal-wrap a , .nihon-portgal-wrap a:hover , .nihon-portgal-wrap a:active {
+  text-decoration:	none;
+}
+
+.nihon-portgal-wrap-items {
+    -webkit-perspective: 1000px; /* Chrome, Safari, Opera  */
+    perspective: 1000px;
+}
+
+.nihon-portgal-wrap .nihon-child-item {
+  float:			left;
+}
+
+.nihon-preloader {
+  background-image:	url('preloadergrey.png');
+  background-position:	center center;
+  background-repeat:	no-repeat;
+  
+}
+
+.nihon-portgal-wrap .nihon-child-item > div:first-child {
+  display:		none; 
+  overflow:		hidden;
+  background-position:	center center;
+  background-repeat:	no-repeat;
+}
+
+.nihon-portgal-morescale {
+  -ms-transform: scale(0.1,0.1); /* IE 9 */
+  -webkit-transform: scale(0.1,0.1); /* Chrome, Safari, Opera */
+  transform: scale(0.1,0.1);
+}
+
+
+.nihon-portgal-wrap .nihon-child-item > div div {
+  display:		table;
+  background-color:	rgba(0,0,0, 0.8);
+  opacity:		0;
+}
+
+.nihon-portgal-wrap .nihon-child-item > div div a ,
+.nihon-portgal-wrap .nihon-child-item > div div a:hover ,
+.nihon-portgal-wrap .nihon-child-item > div div a:focus ,
+.nihon-portgal-wrap .nihon-child-item > div div a:active {
+ text-decoration: none;
+}
+
+.nihon-portgal-wrap .nihon-child-item > div div a {
+  text-align:		center;
+  display:		table-cell;
+  vertical-align: 	middle;
+}
+
+
+.nihon-portgal-wrap .nihon-portgal-navigation {
+  margin:	0px 10px 20px 10px;
+  text-align:	center;
+}
+
+.nihon-portgal-wrap .nihon-portgal-navigation span {
+  transition-duration:		0.3s;
+  -webkit-transition-duration:	0.3s, 0.3s;
+  -moz-transition-duration:	0.3s;
+  -o-transition-duration:	0.3s;
+  padding:	7px 10px 7px 10px;
+  display:	inline-block;
+  border:	1px grey solid;
+  margin:	5px;
+  cursor:	pointer;
+  color:	#404040;
+  font-size:	14px;
+}
+
+.nihon-portgal-wrap .nihon-portgal-navigation span:hover, .nihon-portgal-wrap .nihon-portgal-navigation span.nihon-child-check {
+  color:		white;
+  background-color:	#404040;
+  
+  
+}
+
+
+.nihon-portgal-wrap.nihon-theme-1 .nihon-portgal-navigation ,
+.nihon-portgal-wrap.nihon-theme-2 .nihon-portgal-navigation ,
+.nihon-portgal-wrap.nihon-theme-3 .nihon-portgal-navigation ,
+.nihon-portgal-wrap.nihon-theme-4 .nihon-portgal-navigation 
+{
+  font-size:	0px;
+}
+
+.nihon-portgal-wrap.nihon-theme-1 .nihon-portgal-navigation span ,
+.nihon-portgal-wrap.nihon-theme-2 .nihon-portgal-navigation span ,
+.nihon-portgal-wrap.nihon-theme-3 .nihon-portgal-navigation span ,
+.nihon-portgal-wrap.nihon-theme-4 .nihon-portgal-navigation span 
+{
+  border:	none;
+}
+
+
+@media screen and (min-width: 767px)  {
+	
+	.nihon-portgal-wrap.nihon-theme-1 .nihon-portgal-navigation span {
+	  color:      #EAEAEA;
+	  background: rgb(125,126,125);
+	  background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1)));
+	  background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+	  background: -o-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+	  background: -ms-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+	  background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+	}
+
+	.nihon-portgal-wrap.nihon-theme-1 .nihon-portgal-navigation span ,
+	.nihon-portgal-wrap.nihon-theme-2 .nihon-portgal-navigation span ,
+	.nihon-portgal-wrap.nihon-theme-3 .nihon-portgal-navigation span ,
+	.nihon-portgal-wrap.nihon-theme-4 .nihon-portgal-navigation span 
+	{
+	  margin-left:		0px;
+	  margin-right:		0px;
+	  border:		0px;
+	  display:		inline;
+	  letter-spacing:	0px;
+	  outline:		none;
+	  white-space:		collapse;
+	  padding-left:		20px;
+	  padding-right:	20px;
+	}
+
+	.nihon-portgal-wrap.nihon-theme-1 .nihon-portgal-navigation span:hover, .nihon-portgal-wrap.nihon-theme-1 .nihon-portgal-navigation span.nihon-child-check {
+	  color:		white;
+	  text-shadow:		1px 1px 0px black;
+	  background:		none;
+	  background-color:	rgba(14,14,14,1);
+	}
+
+	.nihon-portgal-wrap.nihon-theme-1 .nihon-portgal-navigation span:first-child ,
+	.nihon-portgal-wrap.nihon-theme-2 .nihon-portgal-navigation span:first-child ,
+	.nihon-portgal-wrap.nihon-theme-3 .nihon-portgal-navigation span:first-child , 
+	.nihon-portgal-wrap.nihon-theme-4 .nihon-portgal-navigation span:first-child {
+	  border-top-left-radius: 15px;
+	  border-bottom-left-radius: 15px;
+	}
+
+	.nihon-portgal-wrap.nihon-theme-1 .nihon-portgal-navigation span:last-child ,
+	.nihon-portgal-wrap.nihon-theme-2 .nihon-portgal-navigation span:last-child ,
+	.nihon-portgal-wrap.nihon-theme-3 .nihon-portgal-navigation span:last-child ,
+	.nihon-portgal-wrap.nihon-theme-4 .nihon-portgal-navigation span:last-child {
+	  border-top-right-radius: 15px;
+	  border-bottom-right-radius: 15px;
+	}
+
+}
+
+
+
+
+.nihon-portgal-wrap.nihon-theme-2 .nihon-portgal-navigation span {
+  background: #eeeeee;
+  background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));
+  background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+  background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+  background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+  text-shadow:		1px 1px 0px white;
+}
+
+.nihon-portgal-wrap.nihon-theme-2 .nihon-portgal-navigation span:hover, .nihon-portgal-wrap.nihon-theme-2 .nihon-portgal-navigation span.nihon-child-check {
+  color:		black;
+  text-shadow:		1px 1px 0px white;
+  background:		none;
+  background-color:	#cccccc;
+}
+
+
+
+
+.nihon-portgal-wrap.nihon-theme-3 .nihon-portgal-navigation span {
+  background: rgb(0,183,234);
+  background: -moz-linear-gradient(top, rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,183,234,1)), color-stop(100%,rgba(0,158,195,1)));
+  background: -webkit-linear-gradient(top, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+  background: -o-linear-gradient(top, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+  background: -ms-linear-gradient(top, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 );
+  color:	white;
+}
+
+.nihon-portgal-wrap.nihon-theme-3 .nihon-portgal-navigation span:hover, .nihon-portgal-wrap.nihon-theme-3 .nihon-portgal-navigation span.nihon-child-check {
+  color:	white;
+  background:	none;
+  background:	rgb(0,183,234);
+}
+
+
+
+
+
+.nihon-portgal-wrap.nihon-theme-4 .nihon-portgal-navigation span {
+background: #bfd255;
+background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bfd255), color-stop(50%,#8eb92a), color-stop(51%,#72aa00), color-stop(100%,#9ecb2d));
+background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
+background: -o-linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
+background: -ms-linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
+background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 );
+  color:	white;
+}
+
+.nihon-portgal-wrap.nihon-theme-4 .nihon-portgal-navigation span:hover, .nihon-portgal-wrap.nihon-theme-4 .nihon-portgal-navigation span.nihon-child-check {
+  color:	white;
+  background:	none;
+  background:	#bfd255;
+}
+
+
+
+
+
+.nihon-portgal-wrap.nihon-theme-5 .nihon-portgal-navigation span {
+  border:		none;
+  border-bottom:	4px #B6B6B6 solid;
+  background:		none;
+  color:		grey;
+  font-weight:		normal;
+}
+
+.nihon-portgal-wrap.nihon-theme-5 .nihon-portgal-navigation span:hover, .nihon-portgal-wrap.nihon-theme-5 .nihon-portgal-navigation span.nihon-child-check {
+  color:		black;
+  border-bottom-color:	black;
+}
+
+
+
+
+
+
+.nihon-portgal-wrap.nihon-theme-6 .nihon-portgal-navigation span ,
+.nihon-portgal-wrap.nihon-theme-7 .nihon-portgal-navigation span {
+  border:		1px #cccccc solid;
+  border-radius:	20px;
+  background-color:	grey;
+  color:		grey;
+  font-weight:		normal;
+  text-shadow:		1px 1px 0px white;
+  background: #eeeeee;
+  background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));
+  background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+  background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+  background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+  padding-top:		5px;
+  padding-bottom:	5px;
+  font-weight:		bold;
+}
+
+.nihon-portgal-wrap.nihon-theme-6 .nihon-portgal-navigation span:hover, .nihon-portgal-wrap.nihon-theme-6 .nihon-portgal-navigation span.nihon-child-check {
+  color:		black;
+}
+
+
+
+
+
+
+
+.nihon-portgal-wrap.nihon-theme-7 .nihon-portgal-navigation span {
+  border:	none;
+  background:	#7d7e7d;
+  background:	-moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+  background:	-webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e));
+  background:	-webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+  background:	-o-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+  background:	-ms-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+  background:	linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
+  filter:	progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+  text-shadow:	none;
+  color:	#C4C4C4;
+}
+
+.nihon-portgal-wrap.nihon-theme-7 .nihon-portgal-navigation span:hover, .nihon-portgal-wrap.nihon-theme-7 .nihon-portgal-navigation span.nihon-child-check {
+  color:	white;
+}
+
+
+.nihon-portgal-wrap.nihon-theme-8 .nihon-portgal-navigation {
+  text-align:		right;
+}
+
+.nihon-portgal-wrap.nihon-theme-9 .nihon-portgal-navigation {
+  text-align:		left;
+}
+
+.nihon-portgal-wrap.nihon-theme-8 .nihon-portgal-navigation span ,
+.nihon-portgal-wrap.nihon-theme-9 .nihon-portgal-navigation span {
+  display:		inline;
+  border:		none;
+  background:		none;
+  background-color:	none;
+  font-weight:		normal;
+  color:		grey;
+  padding:		0px;
+  margin-right:		10px;
+  margin-left:		0px;
+}
+
+.nihon-portgal-wrap.nihon-theme-8 .nihon-portgal-navigation span:after ,
+.nihon-portgal-wrap.nihon-theme-9 .nihon-portgal-navigation span:after {
+  padding-left:	10px;
+  color:	grey;
+  font-weight:	bold;
+  content:	"/";
+}
+
+.nihon-portgal-wrap.nihon-theme-8 .nihon-portgal-navigation span:last-child:after ,
+.nihon-portgal-wrap.nihon-theme-9 .nihon-portgal-navigation span:last-child:after {
+  content:	"";
+}
+
+.nihon-portgal-wrap.nihon-theme-8 .nihon-portgal-navigation span:hover , .nihon-portgal-wrap.nihon-theme-8 .nihon-portgal-navigation span.nihon-child-check ,
+.nihon-portgal-wrap.nihon-theme-9 .nihon-portgal-navigation span:hover , .nihon-portgal-wrap.nihon-theme-9 .nihon-portgal-navigation span.nihon-child-check {
+  background:		none;
+  background-color:	none; 
+  color:		black;
+}
+
+.nihon-portgal-top-line {
+  display:	block;
+  width:	100%;
+  height:	0px;
+  visibility:	hidden;
+}
+
+.nihon-portgal_wooprice {
+  display:		block;
+  padding-left:		5%;
+  padding-right:	5%;
+  /* width:		90%; */
+  line-height:		40px;
+  background-color:	rgba(0,0,0,0.1);
+  text-shadow:		white 0px 0px 1px;
+  /* position:		relative;
+  top:			calc(100% - 40px); */
+  margin-top:		-40px;
+  height:		40px;
+}
+
+  
+  
+  
+  
+.portgal-button-loadmore-wrap span.portgal-button-loadmore  {
+  color:		#515151;
+  font-size:		12px;
+  line-height:		30px;
+  background-color:	rgba(255,255,255,0.8);
+  border:		1px #CFCFCF solid;
+  display:		inline-block;
+  padding-left:		10px;
+  padding-right:	10px;
+  border-radius: 	5px;
+  margin:		0px;
+  vertical-align:	top;
+  cursor:		pointer;
+  display:		inline-block;
+  transition-duration:	0.2s;
+  margin-top:		20px;
+  margin-bottom:	20px; 
+}
+
+.portgal-button-loadmore-wrap span.portgal-button-loadmore:hover {
+  color:		black; 
+}
+
+.portgal-button-loadmore-wrap {
+  text-align:		center;
+}
+
+.portgal-navigation-wrap * {
+  font-weight:		400;
+}
+  
+select.portgalorderby {
+  color:		#434343;
+  border:		0px;
+  margin:		0px;
+  padding:		0px;
+  background-color:	rgba(255,255,255,0.8);
+  border:		1px #CFCFCF solid;
+  vertical-align:	top;
+  width:		100%;
+  height:		100%;
+  outline:		none;
+  opacity:		0;
+  left:			0px;
+  position:		absolute;
+  cursor: 		pointer;
+  display:		inline-block;
+  top:			0px;
+}
+
+.portgalorderby-wrap {
+  display:		inline-block;
+  position:		relative;
+  cursor:		pointer; 
+  padding:		0px;
+  margin:		0px;
+  background-color:	#DFDFDF;
+  font-size:		12px;
+  vertical-align:	top;
+  padding-left:		10px;
+  padding-right:	10px;
+}
+
+.portgalorderby option, select.portgalorderby {
+  color:		#434343;
+  color:		#434343 !important;
+}
+
+.portgal-orderbytype-button {
+  cursor:		pointer;
+  display:		inline-block;
+  background-color:	#DFDFDF;
+  padding:		0px;
+  margin:		0px;
+}
+
+.portgal-orderbytype-button.desc:before ,
+.portgal-orderbytype-button.asc:before {
+  padding:		0px;
+  margin:		0px;
+  font-size:		15px;
+  line-height:		22px;
+  top:			0px;
+  padding-left:		8px;
+  padding-right:	8px;
+}
+
+.portgal-orderbytype-button.asc:before {
+  content:		"\f107";
+  font-family:		FontAwesome;
+  color:		#434343;
+}
+
+.portgal-orderbytype-button.desc:before {
+  color:		#434343;
+  content:		"\f106";
+  font-family:		FontAwesome;
+}
+
+.portgal-orderbytype-button:hover:before {
+  color:		#434343;
+}
+
+.portgalorderby-txt , .portgalorderby-txtshow {
+  position:		relative;
+}
+
+.portgal-clear-search-button {
+  display:		inline-block;
+  cursor:		pointer;
+  background-color:	#DFDFDF;
+  padding-left:		10px;
+  padding-right:	10px;
+  font-size:		12px;
+  line-height:		24px;
+  vertical-align:	top;
+  
+}
+
+.portgal-search-button:before {
+  content:		"\f002";
+  font-family:		FontAwesome;
+  font-size:		15px;
+  line-height:		21px;
+  top:			0px;
+  
+}
+
+.portgal-search-button {
+  display:		inline-block;
+  background-color:	#DFDFDF;
+  padding:		0px;
+  margin:		0px;
+  cursor:		pointer;
+  padding-left:		8px;
+  padding-right:	8px;
+
+}
+
+.portgal-search-button:before {
+  padding:		0px;
+  margin:		0px;
+}
+
+input[type="text"].portgal-search  {
+  font-size:		12px;
+  line-height:		22px;
+  display:		inline-block;
+  padding:		0px;
+  margin:		0px;
+  width:		150px;
+  border:		0px;
+  background-color:	#DFDFDF;
+  vertical-align:	top;
+  /*height:		28px; */
+  padding-left:		8px;
+  padding-right:	8px;
+}
+
+.portgal-navigation-order {
+  display:		inline-block;
+  
+}
+
+.portgal-navigation {
+  display:		inline-block;
+  vertical-align:	top;
+}
+
+.portgal-navigation span {
+  display:		inline-block;
+  background-color:	#DFDFDF;
+  cursor:		pointer;
+  font-size:		12px;
+  line-height:		24px;
+  vertical-align:	top;
+  padding-left:		8px;
+  padding-right:	8px;
+  margin-right:		5px;
+
+}
+
+.portgal-search-button ,
+input[type="text"].portgal-search ,
+.portgal-orderbytype-button {
+  margin-right:	5px;
+}
+
+input[type="text"].portgal-search ,
+.portgal-orderbytype-button ,
+.portgal-clear-search-button ,
+.portgal-search-button ,
+.portgal-navigation span ,
+.portgalorderby-wrap {
+  margin-top:		3px;
+  margin-bottom:	3px;
+}
+
+.portgal-navigation-wrap {
+  text-align: 		center;
+  margin-bottom:	20px;
+}
+
+
+
+.portgalorderby-wrap ,
+.portgal-orderbytype-button ,
+.portgal-clear-search-button ,
+.portgal-search-button ,
+input.portgal-search ,
+.portgal-navigation span {
+/*
+  border-top:		2px green solid;
+  border-bottom:	2px green solid;
+*/
+}
+
+
+input.portgal-search {
+  height:		24px;    
+}
+
+
+input.portgal-search {
+  height:		30px;    
+}
+.portgal-orderbytype-button ,
+.portgal-clear-search-button ,
+.portgal-search-button ,
+.portgal-navigation span ,
+.portgalorderby-wrap {
+  padding-top:		3px;
+  padding-bottom:	3px;
+}
+
+
+/* navigation - 0 begin */
+
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgal-navigation span ,
+.portgal-navigation-wrap.portgal-navigation-type-0 input.portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgalorderby-wrap ,
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgal-orderbytype-button {
+      background-color:	transparent;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgal-clear-search-button {
+      background-color:	white;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-0 input.portgal-search {
+      background-color:	white;
+      border:		1px #CFCFCF solid;
+      height:		32px; 
+      margin-right:	0px;
+      -webkit-border-top-left-radius: 5px;
+      -webkit-border-bottom-right-radius: 0px;
+      -webkit-border-bottom-left-radius: 5px;
+      -moz-border-radius-topleft: 5px;
+      -moz-border-radius-bottomright: 0px;
+      -moz-border-radius-bottomleft: 5px;
+      border-top-left-radius: 5px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 5px;
+}
+
+
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgal-search-button {
+      background-color:	white;
+      border:		1px #CFCFCF solid;
+      -webkit-border-top-right-radius: 5px;
+      -webkit-border-bottom-right-radius: 5px;
+      -moz-border-radius-topright: 5px;
+      -moz-border-radius-bottomright: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-left:	0px white solid;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgal-clear-search-button {
+      border:		1px #CFCFCF solid;
+      border-radius:	5px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgal-orderbytype-button:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgal-clear-search-button:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgal-search-button:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgal-check ,
+.portgal-button-loadmore-wrap.portgal-blm-type-0 span.portgal-button-loadmore:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-0 .portgal-navigation span:hover {
+      color:		black;
+}
+
+/* navigation - 0 end */
+
+
+
+/* navigation - 1 begin */
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-navigation span ,
+.portgal-navigation-wrap.portgal-navigation-type-1 input.portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgalorderby-wrap ,
+.portgal-button-loadmore-wrap.portgal-blm-type-1 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-orderbytype-button {
+      background-color:	white;
+      box-shadow:	0px 0px 5px 0px rgba(0,0,0,0.15);
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 input.portgal-search {
+      background-color:	white;
+      height:		32px; 
+      margin-right:	0px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-navigation span ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-clear-search-button ,
+.portgal-button-loadmore-wrap.portgal-blm-type-1 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-1 input.portgal-search {
+      border:			1px #CFCFCF solid;
+      -webkit-border-radius:	15px;
+      -moz-border-radius:	15px;
+      border-radius:		15px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgalorderby-wrap {
+      border:			1px #CFCFCF solid;
+      -webkit-border-top-left-radius: 15px;
+      -webkit-border-bottom-left-radius: 15px;
+      -moz-border-radius-topleft: 15px;
+      -moz-border-radius-bottomleft: 15px;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-orderbytype-button {
+      border:			1px #CFCFCF solid;
+      -webkit-border-top-right-radius: 15px;
+      -webkit-border-bottom-right-radius: 15px;
+      -moz-border-radius-topright: 15px;
+      -moz-border-radius-bottomright: 15px;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      border-left:		0px white solid;
+      margin-left:		-5px;
+      padding-left:	3px;
+      padding-right:	3px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 input.portgal-search {
+	padding-left:	30px;
+	
+  box-shadow:		inset 0px 5px 5px 0px rgba(0,0,0,0.1);
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-search-button {
+      width:		20px;
+      background-color:	transparent;
+      margin-left:	-148px;
+      margin-right:	135px;
+      position:		relative;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-orderbytype-button:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-clear-search-button:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-search-button:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-check ,
+.portgal-navigation-wrap.portgal-navigation-type-1 .portgal-navigation span:hover {
+      color:		black;
+}
+
+/* navigation - 1 end */
+
+
+/* navigation - 2 begin */
+
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-navigation span ,
+.portgal-navigation-wrap.portgal-navigation-type-2 input.portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgalorderby-wrap ,
+.portgal-button-loadmore-wrap.portgal-blm-type-2 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-orderbytype-button {
+      background-color:		white;
+      -webkit-border-radius:	2px;
+      -moz-border-radius:	2px;
+      border-radius:		2px;
+      font-weight:		bold;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-2 span.portgal-button-loadmore {
+      border:	none;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-orderbytype-button:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-clear-search-button:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-search-button:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-check ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgal-navigation span:hover {
+      color:		black;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgalorderby-txt ,
+.portgal-navigation-wrap.portgal-navigation-type-2 .portgalorderby-txtshow {
+  font-weight:		bold;
+}
+
+
+
+/* navigation - 2 end */
+
+
+/* navigation - 3 begin */
+
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-navigation span ,
+.portgal-navigation-wrap.portgal-navigation-type-3 input.portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgalorderby-wrap ,
+.portgal-button-loadmore-wrap.portgal-blm-type-3 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-orderbytype-button {
+  border:		1px #000 solid;
+  background-color:	rgba(0,0,0, 0.8);
+  color:		white;
+  border-radius:	3px;
+  text-shadow:		0px 1px 0px black;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-orderbytype-button:before {
+  color:		white;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-3 input.portgal-search {
+  height:		32px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-3 span.portgal-button-loadmore:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-navigation span.portgal-check ,
+.portgal-navigation-wrap.portgal-navigation-type-3 .portgal-navigation span:hover {
+  background-color:	rgba(150,150,150, 0.8);
+  border:		1px rgba(200,200,200, 0.8) solid;
+  color:		#262626;
+  text-shadow:		none;
+}
+
+/* navigation - 3 end */
+
+
+/* navigation - 4 begin */
+
+.portgal-button-loadmore-wrap.portgal-blm-type-4 span.portgal-button-loadmore {
+  border:	none;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-navigation span ,
+.portgal-navigation-wrap.portgal-navigation-type-4 input.portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgalorderby-wrap ,
+.portgal-button-loadmore-wrap.portgal-blm-type-4 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-orderbytype-button {
+  background: #d0d0d0;
+  background: -moz-linear-gradient(top, #d0d0d0 0%, #b2b2b2 50%, #969696 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0d0d0), color-stop(50%,#b2b2b2), color-stop(100%,#969696));
+  background: -webkit-linear-gradient(top, #d0d0d0 0%,#b2b2b2 50%,#969696 100%);
+  background: -o-linear-gradient(top, #d0d0d0 0%,#b2b2b2 50%,#969696 100%);
+  background: -ms-linear-gradient(top, #d0d0d0 0%,#b2b2b2 50%,#969696 100%);
+  background: linear-gradient(to bottom, #d0d0d0 0%,#b2b2b2 50%,#969696 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0d0d0', endColorstr='#969696',GradientType=0 );
+  color:		#3a3a3a;
+  text-shadow:		0px 1px 1px white;
+  border-radius:	3px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-orderbytype-button:before {
+  color:		#3a3a3a;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-4 input.portgal-search {
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-4 span.portgal-button-loadmore:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-navigation span.portgal-check ,
+.portgal-navigation-wrap.portgal-navigation-type-4 .portgal-navigation span:hover {
+  color:		#E6E6E6;
+  text-shadow:		0px 1px 1px black;
+  background:		 #a4a4a4;
+  background: -moz-linear-gradient(top, #a4a4a4 0%, #868686 50%, #686868 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a4a4a4), color-stop(50%,#868686), color-stop(100%,#686868));
+  background: -webkit-linear-gradient(top, #a4a4a4 0%,#868686 50%,#686868 100%);
+  background: -o-linear-gradient(top, #a4a4a4 0%,#868686 50%,#686868 100%);
+  background: -ms-linear-gradient(top, #a4a4a4 0%,#868686 50%,#686868 100%);
+  background: linear-gradient(to bottom, #a4a4a4 0%,#868686 50%,#686868 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4a4a4', endColorstr='#686868',GradientType=0 );
+  text-shadow:		none;
+}
+
+/* navigation - 4 end */
+
+
+/* navigation - 5 begin */
+
+.portgal-button-loadmore-wrap.portgal-blm-type-5 span.portgal-button-loadmore {
+      border:	none;
+      border-radius:	0px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-5 input.portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-navigation span ,
+.portgal-navigation-wrap.portgal-navigation-type-5 input.portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgalorderby-wrap ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-clear-search-button ,
+.portgal-button-loadmore-wrap.portgal-blm-type-5 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-orderbytype-button {
+      background-color:	transparent;
+      border-top:	2px #C5C5C5 solid;
+      border-bottom:	2px #C5C5C5 solid;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-navigation span {
+  line-height:		20px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-clear-search-button {
+      background-color:	white;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-5 input.portgal-search {
+      height:		30px; 
+      margin-right:	0px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-5 span.portgal-button-loadmore:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-navigation span.portgal-check ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-navigation span:hover {
+      color:		black;
+      border-top:	2px #6D6D6D solid;
+      border-bottom:	2px #6D6D6D solid;
+}
+
+
+
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-orderbytype-button {
+	margin-left:	-4px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-5 .portgalorderby-wrap {
+	padding-top:	1px;
+	padding-bottom:	1px;
+}
+
+
+
+/* navigation - 5 end */
+
+
+/* navigation - 6 begin */
+
+.portgal-button-loadmore-wrap.portgal-blm-type-6 span.portgal-button-loadmore {
+    border:		none;
+    border-radius:	0px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span {
+    margin-right:	0px;
+    margin-left:	0px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span ,
+.portgal-navigation-wrap.portgal-navigation-type-6 input.portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgalorderby-wrap ,
+.portgal-button-loadmore-wrap.portgal-blm-type-6 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-orderbytype-button {
+  color:	#f8f8f8;
+  background:	rgb(60,60,60);
+  background:	-moz-linear-gradient(top, rgba(60,60,60,1) 0%, rgba(33,33,33,1) 100%);
+  background:	-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(60,60,60,1)), color-stop(100%,rgba(33,33,33,1)));
+  background:	-webkit-linear-gradient(top, rgba(60,60,60,1) 0%,rgba(33,33,33,1) 100%);
+  background:	-o-linear-gradient(top, rgba(60,60,60,1) 0%,rgba(33,33,33,1) 100%);
+  background:	-ms-linear-gradient(top, rgba(60,60,60,1) 0%,rgba(33,33,33,1) 100%);
+  background:	linear-gradient(to bottom, rgba(60,60,60,1) 0%,rgba(33,33,33,1) 100%);
+  filter:	progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3c3c', endColorstr='#212121',GradientType=0 );
+  text-transform:	uppercase;
+  font-weight:	400;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-6 span.portgal-button-loadmore:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span.portgal-check ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span:hover {
+  background:	rgb(33,33,33);
+  background:	-moz-linear-gradient(top, rgba(33,33,33,1) 0%, rgba(0,0,0,1) 100%);
+  background:	-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(33,33,33,1)), color-stop(100%,rgba(0,0,0,1)));
+  background:	-webkit-linear-gradient(top, rgba(33,33,33,1) 0%,rgba(0,0,0,1) 100%);
+  background:	-o-linear-gradient(top, rgba(33,33,33,1) 0%,rgba(0,0,0,1) 100%);
+  background:	-ms-linear-gradient(top, rgba(33,33,33,1) 0%,rgba(0,0,0,1) 100%);
+  background:	linear-gradient(to bottom, rgba(33,33,33,1) 0%,rgba(0,0,0,1) 100%);
+  filter:	progid:DXImageTransform.Microsoft.gradient( startColorstr='#212121', endColorstr='#000000',GradientType=0 );
+  color:	white;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 input.portgal-search {
+      margin-right:	0px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-orderbytype-button:before {
+      color:	white;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-orderbytype-button {
+      margin-left:	-4px;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-6 input.portgal-search {
+      height:		40px; 
+}
+
+
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-orderbytype-button ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgalorderby-wrap {
+	padding-top:	8px;
+	padding-bottom:	8px;
+}
+ 
+.portgal-button-loadmore-wrap.portgal-blm-type-6 span.portgal-button-loadmore {
+	padding-top:	3px;
+	padding-bottom:	3px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-6 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span {
+  line-height:		34px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-6 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span {
+  border-right:		1px #474747 solid;
+  padding-left:		15px;
+  padding-right:	15px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-6 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-6 .portgal-navigation span:last-child {
+  border-right:		none;
+}
+
+/* navigation - 6 end */
+
+
+
+/* navigation - 7 begin */
+
+.portgal-button-loadmore-wrap.portgal-blm-type-7 span.portgal-button-loadmore {
+  border-radius:	0px;
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-7 span.portgal-button-loadmore ,
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-navigation span ,
+.portgal-navigation-wrap.portgal-navigation-type-7 input.portgal-search ,
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-clear-search-button ,
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgalorderby-wrap ,
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-orderbytype-button {
+  background-color:	white;
+  border:		1px #D8D8D8 solid;
+  font-weight:		bold;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgalorderby-txt ,
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgalorderby-txtshow {
+  font-weight:		bold;
+}
+
+.portgal-navigation-wrap.portgal-navigation-type-7 input.portgal-search {
+      height:		32px; 
+}
+
+.portgal-button-loadmore-wrap.portgal-blm-type-7 span.portgal-button-loadmore:hover ,
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-navigation span.portgal-check ,
+.portgal-navigation-wrap.portgal-navigation-type-7 .portgal-navigation span:hover {
+      color:		black;
+}
+
+/* navigation - 7 end */
+

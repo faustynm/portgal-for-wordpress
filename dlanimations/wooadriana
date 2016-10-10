@@ -1,0 +1,78 @@
+ 
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+	jQuery("#nihon-portgal-wrap-wooadriana").portgal({
+		databaseid:		1,
+		loadmore:		'',
+		preloader:		'',
+		wordpressurl:		'{wordpress_path}' ,
+		itemmaxwidthforrows:	{
+			row0:	{
+				itemminwidth:	100,
+				itemmaxwidth:	400
+			}
+		},
+		animationmode:		'wooadriana',
+		workmode:		0,
+		fullscreenmode:		false,
+		orderby:		{
+		},
+	});
+});
+
+</script>
+
+<div style="clear: both"></div>
+<br>
+
+<div id="nihon-portgal-wrap-wooadriana" class="nihon-portgal">
+<ul class="nihon-items-list">
+ 
+ <li portgal-category="2,3" portgal-attribute-order1="1">
+	
+	<div style="background-image: url('{img_1_path}'); " class="portgal-bgscale fdlayer-wrapper" >
+		<div class="portgal-dlayer portgal-opacity-0" >
+			
+			<a href="aa" class="portgal-circle-anchortype1 portgal-circle-anchor portgaldlinsideanimation portgal-circle-nr1 fa fa-link" title="View"></a>
+			
+			<span class="portgal-circle-anchortype1 portgal-circle-anchor portgaldlinsideanimation portgal-circle-nr2 fa fa-shopping-cart portgal-button-addtocart" title="Add to cart" portgalwoocommerceproductid="43"></span>
+			
+			<a href="" class="portgal-link-viewcard portgal-link portgal-text-link portgal-text-link-type-2 portgal-text-bold">VIEW CART</a>
+			
+		</div>
+	</div>
+	<div class="portgal-item-ajaxpreloader"></div>
+	<div class="portgal-wooadriana-txt-wrap">
+		<a href="http://google.com" class="portgal-wooadriana-header">NICE JAKET</a>
+		<div class="portgal-wooadriana-price-wrap"><span class="portgal-wooadriana-price">&pound; 1234.21</span></div>
+		<div class="portgal-wooadriana-categories"><a href="">Some category</a>, <a href="">Some category</a></div>
+		<div  class="portgal-wooadriana-star-raiting-wrap">
+			<span class="portgal-wooadriana-star-raiting"></span>
+			<span class="portgal-wooadriana-star-raiting_points portgal-wooadriana-sr-05"></span>
+		</div>
+	</div>
+	
+</li>
+ 
+</ul>
+<div class="portgal-lightboxwrap">
+	<div class="portgal-ajaxpreolader"></div>
+	<div class="portgal-lightboxwrapimage2 portgal-lightboxwrapimage">
+		<span class="fa fa-times portgal-lightboxclose"></span>
+		<div style="clear: both"></div>
+		<div class="portgal-lightboximgwrap">
+			<img src="">
+		</div>
+		<div style="clear: both"></div>
+		<ul class="portgal-lightbox-navigation">
+			<li class="portgal-lightboxnavigationleft"><span class="fa fa-chevron-circle-left"></span></li>
+			<li class="portgal-lightboxnavigationright"><span class="fa fa-chevron-circle-right"></span></li>
+		</ul>
+	</div>
+	<div class="portgal-textunderimage"></div>
+	<div class="portgal-lightboxhidden"></div>
+</div>
+</div> 

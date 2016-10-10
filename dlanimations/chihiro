@@ -1,0 +1,74 @@
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+	jQuery("#nihon-portgal-wrap-chihiro").portgal({
+		databaseid:		1,
+		loadmore:		'',
+		preloader:		'',
+		wordpressurl:		'{wordpress_path}' ,
+		itemmaxwidthforrows:	{
+			row0:	{
+				itemminwidth:	100,
+				itemmaxwidth:	400
+			}
+		},
+		animationmode:		'chihiro',
+		workmode:		0,
+		fullscreenmode:		false,
+		orderby:		{
+		},
+	});
+});
+
+</script>
+
+<div style="clear: both"></div>
+<br>
+
+<div id="nihon-portgal-wrap-chihiro" class="nihon-portgal">
+<ul class="nihon-items-list">
+ 
+ <li portgal-category="2,3" portgal-attribute-order1="1">
+	<div class="portgal-chihiro-text-wrap">
+		<a href="http://google.com" class="portgal-chihiro-anchor-h1">Lorem ipsum</a>
+		<div class="portgal-chihiro-anchor-category">
+			<a href="http://google.com">Some category 1</a>
+			
+		</div>
+		<div>Lorem ipsum</div>
+		<div class="portgal-chihiro-social">
+		<a href="https://www.facebook.com/sharer/sharer.php?u=" class="fa fa-facebook-square"></a>
+		<a href="https://twitter.com/intent/tweet?text=" class="fa fa-twitter-square"></a>
+		<a href="https://plus.google.com/share?url=" class="fa fa-google-plus-square"></a>
+		<a href="https://pinterest.com/pin/create/bookmarklet/?media=&description=" class="fa fa-pinterest-square"></a>
+		</div>
+	</div>
+	<div style="background-image: url('{img_1_path}'); " class="portgal-bgscale fdlayer-wrapper" >
+		<div class="portgal-dlayer portgal-opacity-0" >
+			<a href="aa" class="portgaldlinsideanimation portgal-link-nr1 portgal-link portgal-text-link portgal-text-link-type-1 portgal-text-bold">READ MORE</a>
+		</div>
+	</div>
+</li>
+
+</ul>
+<div class="portgal-lightboxwrap">
+	<div class="portgal-ajaxpreolader"></div>
+	<div class="portgal-lightboxwrapimage2 portgal-lightboxwrapimage">
+		<span class="fa fa-times portgal-lightboxclose"></span>
+		<div style="clear: both"></div>
+		<div class="portgal-lightboximgwrap">
+			<img src="">
+		</div>
+		<div style="clear: both"></div>
+		<ul class="portgal-lightbox-navigation">
+			<li class="portgal-lightboxnavigationleft"><span class="fa fa-chevron-circle-left"></span></li>
+			<li class="portgal-lightboxnavigationright"><span class="fa fa-chevron-circle-right"></span></li>
+		</ul>
+	</div>
+	<div class="portgal-textunderimage"></div>
+	<div class="portgal-lightboxhidden"></div>
+</div>
+</div> 
+ 

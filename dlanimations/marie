@@ -1,0 +1,66 @@
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+	jQuery("#nihon-portgal-wrap-marie").portgal({
+		databaseid:		1,
+		loadmore:		'',
+		preloader:		'',
+		wordpressurl:		'{wordpress_path}' ,
+		itemmaxwidthforrows:	{
+			row0:	{
+				itemminwidth:	100,
+				itemmaxwidth:	400
+			}
+		},
+		animationmode:		'marie',
+		workmode:		0,
+		fullscreenmode:		false,
+		orderby:		{
+		},
+	});
+});
+
+</script>
+
+<div style="clear: both"></div>
+<br>
+
+<div id="nihon-portgal-wrap-marie" class="nihon-portgal">
+<ul class="nihon-items-list">
+ 
+ <li portgal-category="2,3" portgal-attribute-order1="1">
+	<div style="background-image: url('{img_1_path}'); " class="portgal-bgscale fdlayer-wrapper">
+		<div class="portgal-dlayer">
+			<div class="portgal-dlayer-content">
+			</div>
+		</div>
+		<div class="portgal-dlayer-after">
+			<a href="http://google.com" class="portgal-circle-anchortype1 portgal-circle-anchor portgaldlinsideanimation portgal-circle-nr1 fa fa-link"></a>
+			<span href="http://google.com" class="portgal-circle-anchortype1 portgal-circle-anchor portgaldlinsideanimation portgal-circle-nr2 fa fa-search portgal-button-run-lightbox " portgalshowinlightboximg="{img_1_path}" portgalshowinlightboxtxt="Lorem ipsum dolor sit amet"></span>
+		</div>
+	</div>
+</li>
+
+ 
+</ul>
+<div class="portgal-lightboxwrap">
+	<div class="portgal-ajaxpreolader"></div>
+	<div class="portgal-lightboxwrapimage2 portgal-lightboxwrapimage">
+		<span class="fa fa-times portgal-lightboxclose"></span>
+		<div style="clear: both"></div>
+		<div class="portgal-lightboximgwrap">
+			<img src="">
+		</div>
+		<div style="clear: both"></div>
+		<ul class="portgal-lightbox-navigation">
+			<li class="portgal-lightboxnavigationleft"><span class="fa fa-chevron-circle-left"></span></li>
+			<li class="portgal-lightboxnavigationright"><span class="fa fa-chevron-circle-right"></span></li>
+		</ul>
+	</div>
+	<div class="portgal-textunderimage"></div>
+	<div class="portgal-lightboxhidden"></div>
+</div>
+</div> 
+ 

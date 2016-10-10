@@ -1,0 +1,71 @@
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+	jQuery("#nihon-portgal-wrap-alexis").portgal({
+		databaseid:		1,
+		loadmore:		'',
+		preloader:		'',
+		wordpressurl:		'{wordpress_path}' ,
+		itemmaxwidthforrows:	{
+			row0:	{
+				itemminwidth:	100,
+				itemmaxwidth:	400
+			}
+		},
+		animationmode:		'alexis',
+		workmode:		0,
+		fullscreenmode:		false,
+		orderby:		{
+		},
+	});
+});
+
+</script>
+
+<div style="clear: both"></div>
+<br>
+
+<div id="nihon-portgal-wrap-alexis" class="nihon-portgal">
+<ul class="nihon-items-list">
+ 
+ <li portgal-category="2,3" portgal-attribute-order1="1">
+	<div style="background-image: url('{img_1_path}'); " class="portgal-bgscale fdlayer-wrapper">
+		<div class="portgal-dlayer "></div>
+		<div class="portgal-dlayer-after">
+			<a href="http://google.com" class="portgal-circle-anchortype2 portgal-circle-anchor portgaldlinsideanimation portgal-circle-nr1 fa fa-link"></a>
+			<span href="http://google.com" class="portgal-circle-anchortype2 portgal-circle-anchor portgal-link portgaldlinsideanimation portgal-circle-nr2 fa fa-search portgal-button-run-lightbox " portgalshowinlightboximg="{img_1_path}" portgalshowinlightboxtxt="Some example text"></span>
+		</div>
+	</div>
+	<a href="" class="portgal-alexis-anchor-h1">Lorem ipsum</a>
+	<div class="portgal-alexis-afteranchor">
+		<span class="fa fa-calendar"></span>
+		<span class="portgal-data">2012-01-02</span>
+		<span class="fa fa-user"></span>
+		<span class="portgal-username">admin</span>
+	</div>
+	<div>Lorem ipsum</div>
+	<a href="http://google.com" class="portgal-alexis-anchor-readmore">Read more ...</a>
+</li>
+
+ 
+</ul>
+<div class="portgal-lightboxwrap">
+	<div class="portgal-ajaxpreolader"></div>
+	<div class="portgal-lightboxwrapimage2 portgal-lightboxwrapimage">
+		<span class="fa fa-times portgal-lightboxclose"></span>
+		<div style="clear: both"></div>
+		<div class="portgal-lightboximgwrap">
+			<img src="">
+		</div>
+		<div style="clear: both"></div>
+		<ul class="portgal-lightbox-navigation">
+			<li class="portgal-lightboxnavigationleft"><span class="fa fa-chevron-circle-left"></span></li>
+			<li class="portgal-lightboxnavigationright"><span class="fa fa-chevron-circle-right"></span></li>
+		</ul>
+	</div>
+	<div class="portgal-textunderimage"></div>
+	<div class="portgal-lightboxhidden"></div>
+</div>
+</div> 
