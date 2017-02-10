@@ -3179,25 +3179,6 @@ http://api.jqueryui.com/easings/
                                         }
                                         
                                         
-                                        
-                                        
-                                        
-                                        
-                                        /*
-					wmax		=	Math.floor( w * 0.9 );
-					setwidth	=	width;
-					setheight	=	height;
-					if(width>wmax) {
-						setwidth	=	wmax;
-						ratio		=	setwidth / wmax;
-                                                //  ratiookna
-                                                //  alert(ratio);
-						setheight	=	Math.floor(height * ratio);
-					}
-					// alert(width + ' -- ' + height);
-                                        */
-					
-					
 					url	=	$(this).attr('src');
 					
 					
@@ -3212,7 +3193,7 @@ http://api.jqueryui.com/easings/
 					h	=	setheight;	//	$(this).closest('.portgal-lightboxwrap').find(".portgal-lightboxwrapimage").height();
 					topset	=	Math.floor( ($(window).height() / 2) - (h / 2));
 					
-					$(this).closest('.nihon-portgal').find('.portgal-lightboxwrap').find(".portgal-textunderimage").css('top', (topset + height) + 'px');
+					$(this).closest('.nihon-portgal').find('.portgal-lightboxwrap').find(".portgal-textunderimage").css('top', (topset + setheight) + 'px');
 					
 					$(this).closest('.nihon-portgal').find('.portgal-lightboxwrap').find(".portgal-lightboximgwrap").find("img").animate(
 					  { 
@@ -3289,7 +3270,8 @@ http://api.jqueryui.com/easings/
 			
 			$(this).closest('.nihon-portgal').find('.portgal-lightboxhidden img').each(function() {
 				$(this).load(function() {
-					width	=	$(this).width();
+					/*
+                                        width	=	$(this).width();
 					height	=	$(this).height();
 					w	=	$(window).width();
 					h	=	$(window).height();
@@ -3301,6 +3283,42 @@ http://api.jqueryui.com/easings/
 						ratio		=	width / wmax;
 						setheight	=	Math.floor(height * ratio);
 					}
+					*/
+					
+					
+                                        width	=	$(this).width();
+					height	=	$(this).height();
+                                        
+                                        ratioobrazka    =   width / height;
+                                        
+					w	        =	$(window).width();
+					h	        =	$(window).height();
+                                        
+                                        ratiookna       =       w / h;
+                                        
+                                        maxheight       =       Math.floor( h * 0.9 );
+                                        maxwidth        =       Math.floor( w * 0.9 );
+                                        
+                                        setheight       =       height;
+                                        setwidth        =       width;
+                                        
+                                        if(width>maxwidth || height>maxheight) {
+                                            pr1 =   width / maxwidth;
+                                            pr2 =   height / maxheight;
+                                            if(pr1>pr2) { // do szerokosci
+                                                
+                                                setwidth	=	maxwidth;
+                                                ratio		=	width / setwidth;
+                                                setheight	=	Math.floor(height / ratio);
+                                            } else {    // do wysokosci
+                                                setheight       =       maxheight;
+                                                ratio		=	height / setheight;
+                                                setwidth        =       Math.floor(width / ratio);
+                                            }
+                                        }
+					
+					
+					
 					
 					for(k in allitemsforportgallightbox) {
 						allitemsforportgallightbox[k][2]	=	0;
@@ -3324,7 +3342,7 @@ http://api.jqueryui.com/easings/
 						complete: function() {
 							
 							
-							$(this).closest('.portgal-lightboxwrap').find(".portgal-textunderimage").css('top', (topset + height) + 'px');
+							$(this).closest('.portgal-lightboxwrap').find(".portgal-textunderimage").css('top', (topset + setheight) + 'px');
 							
 							
 							$(this).find("img").fadeIn(200);
