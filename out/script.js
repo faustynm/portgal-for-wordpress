@@ -3149,17 +3149,54 @@ http://api.jqueryui.com/easings/
 					
 					width	=	$(this).width();
 					height	=	$(this).height();
-					w	=	$(window).width();
-					h	=	$(window).height();
-					wmax		=	w - 100;
+                                        
+                                        ratioobrazka    =   width / height;
+                                        
+					w	        =	$(window).width();
+					h	        =	$(window).height();
+                                        
+                                        ratiookna       =       w / h;
+                                        
+                                        maxheight       =       Math.floor( h * 0.9 );
+                                        maxwidth        =       Math.floor( w * 0.9 );
+                                        
+                                        setheight       =       height;
+                                        setwidth        =       width;
+                                        
+                                        if(width>maxwidth || height>maxheight) {
+                                            pr1 =   width / maxwidth;
+                                            pr2 =   height / maxheight;
+                                            if(pr1>pr2) { // do szerokosci
+                                                
+                                                setwidth	=	maxwidth;
+                                                ratio		=	width / setwidth;
+                                                setheight	=	Math.floor(height / ratio);
+                                            } else {    // do wysokosci
+                                                setheight       =       maxheight;
+                                                ratio		=	height / setheight;
+                                                setwidth        =       Math.floor(width / ratio);
+                                            }
+                                        }
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        /*
+					wmax		=	Math.floor( w * 0.9 );
 					setwidth	=	width;
 					setheight	=	height;
 					if(width>wmax) {
 						setwidth	=	wmax;
-						ratio		=	width / wmax;
+						ratio		=	setwidth / wmax;
+                                                //  ratiookna
+                                                //  alert(ratio);
 						setheight	=	Math.floor(height * ratio);
 					}
 					// alert(width + ' -- ' + height);
+                                        */
+					
 					
 					url	=	$(this).attr('src');
 					
