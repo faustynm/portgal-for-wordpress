@@ -249,7 +249,8 @@ return_havemore		=	\''.$havemore_set.'\';
 add_action('wp_enqueue_scripts', 'portgal_scripts');
 
 function portgal_scripts() {
-	wp_enqueue_style('font-awesome', plugins_url('nihon-portgal/out/font-awesome-4.3.0/css/font-awesome.min.css'), false, 4.3, 'all');
+	// wp_enqueue_style('font-awesome', plugins_url('nihon-portgal/out/font-awesome-4.3.0/css/font-awesome.min.css'), false, 4.3, 'all');
+	wp_enqueue_style('font-awesome', plugins_url('nihon-portgal/out/font-awesome-4.4.0/css/font-awesome.min.css'), false, 4.4, 'all');
 	wp_enqueue_style('nihon-portgal', plugins_url('nihon-portgal/out/style.css'), false, 1, 'all');
 	wp_enqueue_script('nihon-portgal', plugins_url('nihon-portgal/out/script.js'), array('jquery', 'jquery-ui-core', 'jquery-effects-core'), 1, true);
 	wp_localize_script('nihon-portgal', 'myAjax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' )));        
